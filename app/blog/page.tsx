@@ -8,9 +8,9 @@ import Footer from "@/components/footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Faith, Reflection & Redemption – Blog | I'm Out by Dwight Vincent Green Jr.",
+  title: "Blogs - Faith, Reflection & Redemption | by Dwight Vincent Green Jr.",
   description:
-    "Read powerful reflections and behind-the-scenes insights from 'I'm Out'—a thought-provoking journey of spiritual awakening. Dive deeper into faith, healing, and the personal journey that inspired the book.",
+    "Read powerful reflections and behind-the-scenes insights from both books —a thought-provoking journey of spiritual awakening. Dive deeper into faith, healing, and the personal journey that inspired the book.",
 };
 
 const Blog = () => {
@@ -52,7 +52,8 @@ const Blog = () => {
             Struggling to find motivation to read? Discover practical tips to reignite your love for books!
             From setting realistic reading goals and creating a cozy reading nook to choosing the right book
             and joining a book club, our guide covers it all. Dive into engaging reads like{" "}
-            <strong>"I'm Out"</strong> and transform your reading habits today. Explore how creating
+            <strong>"THE ABANDONMENT:
+            A Hollywood Bombshell"</strong> and transform your reading habits today. Explore how creating
             a distraction-free environment and tracking your progress can keep you on track. Ready to get
             your reading mojo back? Read more now!
           </p>
@@ -103,7 +104,7 @@ const Blog = () => {
             intricacies of ancient civilizations or navigating the tumult of more recent events, historical
             fiction offers a gateway to understanding the complexities of the past while illuminating
             timeless truths about the human experience. In works like{" "}
-            <strong>"I'm Out"</strong>, set amidst the Orphan Trains era, the resonance of history is
+            <strong>"La Lucha Por Mi Almas"</strong>, set amidst the Orphan Trains era, the resonance of history is
             palpable, inviting readers to embark on a journey of discovery, empathy, and enlightenment.
           </p>
 

@@ -5,9 +5,9 @@ import Footer from "@/components/footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About the Author | Dwight Vincent Green Jr. | I'm Out Book",
+  title: "About the Author | James Larry Holmes Jr.",
   description:
-    "Get to know Dwight Vincent Green Jr., the voice behind 'I'm Out: The Reason Why I'm Leaving The Church.' Discover his journey, purpose, and the real-life experiences that shaped this groundbreaking book.",
+    "Get to know James Larry Holmes Jr., the voice behind the both books'. Discover his journey, purpose, and the real-life experiences that shaped this groundbreaking book.",
 };
 
 const About = () => {
@@ -15,14 +15,14 @@ const About = () => {
     <>
       <Header />
 
-      <section className="bg-[#c7d3e4] w-full py-20 px-6 md:px-16 font-serif text-black">
+      <section className="bg-[#739792] w-full py-20 px-6 md:px-16 font-serif text-black">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-start gap-12 lg:gap-20">
           {/* Left Side - Image */}
           <div className="w-full lg:w-[30%] flex justify-center">
             <div className="w-[320px] h-[450px] relative rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="/assets/images/author-dwight.jpeg"
-                alt="Sandra McKay"
+                src="/assets/images/photo-6.png"
+                alt="Author Image"
                 layout="fill"
                 objectFit="cover"
                 className="rounded-2xl"
@@ -33,7 +33,7 @@ const About = () => {
           {/* Right Side - Text */}
           <div className="w-full lg:w-[70%]">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-review">About the Author</h2>
-            <h3 className="text-2xl md:text-3xl font-semibold mb-8">Dwight VinCent Green Jr.</h3>
+            <h3 className="text-2xl md:text-3xl font-semibold mb-8">James Larry Holmes JR.</h3>
 
             <div className="space-y-8 text-[16px] leading-8 tracking-wide">
               <p>
@@ -64,7 +64,7 @@ const About = () => {
                </p>
                <br />
                <p>
-                 “The <strong>author’s</strong> mission is to foster positive relationships and promote personal growth through effective communication and leadership principles. They aspire to continue writing on topics of personal development, community engagement, and faith-based leadership, hoping to empower others to manage difficulties with grace and resilience. Their dedication to improving lives both through therapy and literature exemplifies his commitment to service in all its forms.”<span className="text-myblack font-semibold font-serif"> – Dwight VinCent Green Jr. </span>
+                 “The <strong>author’s</strong> mission is to foster positive relationships and promote personal growth through effective communication and leadership principles. They aspire to continue writing on topics of personal development, community engagement, and faith-based leadership, hoping to empower others to manage difficulties with grace and resilience. Their dedication to improving lives both through therapy and literature exemplifies his commitment to service in all its forms.”<span className="text-myblack font-semibold font-serif"> – James Larry Holmes JR. </span>
                </p>
               </div>
             </div>
@@ -72,7 +72,7 @@ const About = () => {
             {/* CTA Button */}
             <div className="mt-14 text-center">
               <Link
-                href={"https://www.amazon.com/s?k=I%27m+Out%3A+The+Reason+Why+I%27m+Leaving+The+Church&crid=I75DHGFKQRQP&sprefix=i%27m+out+the+reason+why+i%27m+leaving+the+church%2Caps%2C425&ref=nb_sb_noss"} target="_blank"
+                href={"https://a.co/d/9tIeO8g"} target="_blank"
                 className="inline-block text-white bg-myblack text-lg font-semibold px-10 py-4 rounded-full transition duration-300 hover:bg-opacity-80 hover:scale-105"
               >
                 Get The Book Here!

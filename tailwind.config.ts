@@ -24,6 +24,9 @@ const config: Config = {
         myblack:'#193165',
         all:'#182f65',
         customblue:'#5a74a1',
+        myred: '#DE0713', // name it whatever you want
+        onhover: '#f51307',
+        james: '#3d756c',
       },
     },
   },

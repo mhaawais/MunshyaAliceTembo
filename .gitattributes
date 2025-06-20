@@ -1,0 +1,32 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Force LF line endings for common text/code files
+*.js     text eol=lf
+*.ts     text eol=lf
+*.tsx    text eol=lf
+*.css    text eol=lf
+*.scss   text eol=lf
+*.html   text eol=lf
+*.json   text eol=lf
+*.md     text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf
+*.mjs    text eol=lf
+*.cjs    text eol=lf
+
+# Treat lock files strictly
+package-lock.json text eol=lf
+yarn.lock         text eol=lf
+pnpm-lock.yaml    text eol=lf
+
+# Binary files (don't convert line endings)
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.gif     binary
+*.svg     binary
+*.ico     binary
+*.ttf     binary
+*.woff    binary
+*.woff2   binary

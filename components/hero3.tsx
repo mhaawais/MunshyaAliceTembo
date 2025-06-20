@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero3 = () => {
   return (
-    <section className="bg-[#a3b4ce] text-black py-12 px-4">
+    <section className="bg-[#64a59a] text-black py-12 px-4">
       
       {/* Top Border */}
       <div className="border-t-4 border-review w-full mb-8 px-4"></div>

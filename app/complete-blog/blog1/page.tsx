@@ -5,9 +5,9 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Why I Wrote 'I'm Out' | Dwight Vincent Green Jr. – Blog",
+  title: "Why I Wrote 'The Abandonment: A Hollywood Bombshell' | James Larry Holmes Jr. – Blog",
   description:
-    "Uncover the heartfelt motivations behind 'I'm Out.' In this blog, Dwight shares his spiritual struggles, revelations, and what led him to pen this bold departure from traditional church culture.",
+    "Uncover the heartfelt motivations behind 'The Abandonment: A Hollywood Bombshell.' In this blog, Dwight shares his spiritual struggles, revelations, and what led him to pen this bold departure from traditional church culture.",
 };
 
 const Blog1 = () => {
@@ -32,7 +32,7 @@ const Blog1 = () => {
 
         {/* Meta */}
         <div className="mt-4 text-[14px] tracking-widest">
-          May 28 &nbsp; - &nbsp; Written By Dwight Vincent Green Jr.
+          May 28 &nbsp; - &nbsp; Written By James Larry Holmes Jr.
         </div>
 
         {/* Title */}
@@ -64,8 +64,8 @@ const Blog1 = () => {
 
           <p>
             <strong>3. Choose the Right Book:</strong> Select a book that truly
-            interests you. If you're a fan of historical fiction, my novel "A
-            Place for Me" might be a perfect pick to get you started. Its
+            interests you. If you're a fan of historical fiction, my novel 
+            "The Abandonment: A Hollywood Bombshell" might be a perfect pick to get you started. Its
             engaging story and rich historical backdrop can reignite your
             passion for reading.
           </p>
@@ -96,15 +96,16 @@ const Blog1 = () => {
           </p>
 
           <p>
-            Rediscover the joy of reading with a compelling story. "I'm Out"
+            Rediscover the joy of reading with a compelling story. "The Abandonment: A Hollywood Bombshell"
             is waiting to take you on a historical journey filled with
             emotion and adventure. Happy reading!
           </p>
 
           <div className="mt-8 flex justify-center">
-            <Link href={"https://www.amazon.com/s?k=I%27m+Out%3A+The+Reason+Why+I%27m+Leaving+The+Church&crid=I75DHGFKQRQP&sprefix=i%27m+out+the+reason+why+i%27m+leaving+the+church%2Caps%2C425&ref=nb_sb_noss"}>
+            <Link href={" https://a.co/d/9tIeO8g"}>
             <button className="bg-black text-white px-10 py-5 rounded-full hover:bg-white hover:text-black hover:shadow-lg transition-all duration-300 font-semibold tracking-wider">
-              Read "I'm Out"
+              Read "THE ABANDONMENT:<br />
+              A Hollywood Bombshell"
             </button>
             </Link>
           </div>
@@ -120,7 +121,7 @@ const Blog1 = () => {
           <span>reading goals</span>
           <span>cozy reading space</span>
           <span>book clubs</span>
-          <span>Dwight Vincent Green Jr.</span>
+          <span>James Larry Holmes Jr.</span>
           <span>historical fiction</span>
           <span>reading inspiration</span>
           <span>improve reading habits</span>
@@ -131,7 +132,7 @@ const Blog1 = () => {
 
         {/* Author */}
         <div className="mt-6 text-[15px] tracking-wide font-semibold">
-          Dwight Vincent Green Jr.
+          James Larry Holmes JR.
         </div>
 
         {/* Next Blog Link */}

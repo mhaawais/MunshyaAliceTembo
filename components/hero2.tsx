@@ -1,42 +1,59 @@
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 const Hero2 = () => {
   return (
-    <div className="bg-[#c7d3e4] w-full py-10 px-4">
+    <div className="bg-[#bce1dc] w-full py-10 px-4">
       <div className="flex flex-col lg:flex-row items-center justify-center w-full max-w-6xl mx-auto gap-8">
-        
         {/* Image Section */}
-        <div className="bg-[#a3b4ce] p-6 rounded-md w-full max-w-[350px]">
-          <Image 
-            src="/assets/images/m1.png" 
-            alt="Book Image" 
-            width={300} 
-            height={400} 
+        <div className="bg-[#bce1dc] p-6 rounded-md w-full max-w-[350px]">
+          <Image
+            src="/assets/images/m4.JPG"
+            alt="Book Image"
+            width={300}
+            height={400}
             className="w-full h-auto rounded-md"
           />
         </div>
 
         {/* Text Section */}
-        <div className="bg-[#a3b4ce] p-8 rounded-md w-full max-w-[500px] flex flex-col justify-center items-center lg:items-start min-h-[450px] text-center lg:text-left font-serif">
+        {/* <div className="bg-[#64a59a] p-8 rounded-md w-full max-w-[500px] flex flex-col justify-center items-center lg:items-start min-h-[450px] text-center lg:text-left font-serif">
           <h2 className="text-3xl md:text-4xl font-bold text-myblack mb-4">
-           I'm Out:    <br />
-           The Reason Why I'm Leaving the Church 
+           La Lucha Por Mi Almas<br />
+          (Spanish Edition)
           </h2>
           <h3 className="mb-8 text-xl text-gray-700">
             By: <br /> 
             Dwight Vincent Green Jr.
           </h3>
-          <Link href={"https://www.amazon.com/s?k=I%27m+Out%3A+The+Reason+Why+I%27m+Leaving+The+Church&crid=I75DHGFKQRQP&sprefix=i%27m+out+the+reason+why+i%27m+leaving+the+church%2Caps%2C425&ref=nb_sb_noss"} target="_blank"> 
+          <Link href={"https://a.co/d/0Kge1Ax"} target="_blank"> 
           <button 
             className="inline-block bg-black text-white px-6 py-3 font-semibold text-lg rounded-md transition-all duration-300 hover:bg-gray-800"
           >
             Get The BooK!
           </button>
           </Link>
+        </div> */}
+        <div className="bg-[#64a59a] p-4 rounded-md w-full max-w-[500px] flex flex-col justify-center items-center lg:items-start min-h-[320px] text-center lg:text-left font-serif">
+          <p className="font-bold text-[#bd3b42] uppercase tracking-wide mb-1 text-base sm:text-lg md:text-xl lg:text-2xl">
+            JUST RELEASED —
+          </p>
+          <h2 className="text-2xl md:text-3xl font-bold text-myblack mb-2">
+            La Lucha Por Mi Almas
+            <br />
+            (Spanish Edition)
+          </h2>
+          <h3 className="mb-4 text-lg text-gray-700">
+            By: <br />
+            James Larry Holmes JR.
+          </h3>
+          <Link href={"https://a.co/d/0Kge1Ax"} target="_blank">
+            <button className="inline-block bg-black text-white px-5 py-5 font-semibold text-xl rounded-md transition-all duration-300 hover:bg-gray-800 font-serif">
+              Get The BooK!
+            </button>
+          </Link>
         </div>
-
       </div>
     </div>
   );

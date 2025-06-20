@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   description: "Official site for the Amazon book by Dwight Vincent Green Jr.",
   icons: {
     icon: [
-      `/assets/logo/Author-Logo.png?v=${faviconVersion}`,
+      `/assets/logo/Author-Logo1.png?v=${faviconVersion}`,
       // "/favicon.ico",
     ],
   },
