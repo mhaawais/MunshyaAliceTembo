@@ -18,8 +18,8 @@ const Blog = () => {
     <>
       <Header />
 
-      <section className="w-full text-black bg-[#c7d3e4]">
-        {/* Blog 1 Image */}
+      <section className="w-full text-black bg-white">
+        {/* Blog 1 Image bg-[#c7d3e4]*/}
         <div className="w-full flex justify-center px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 pt-6">
           <Link href="/complete-blog/blog1" className="w-full">
             <div className="w-full max-w-7xl mx-auto">
@@ -43,7 +43,7 @@ const Blog = () => {
           </p>
           <p className="text-center text-sm sm:text-base mb-8">• 5/28/19</p>
 
-          <h1 className="text-center text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-10  text-myblack font-serif">
+          <h1 className="text-center text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-10  text-james font-serif">
             Finding Your Reading Mojo: How to Get <br className="hidden sm:block" />
             Motivated to Start Reading Again
           </h1>
@@ -52,7 +52,7 @@ const Blog = () => {
             Struggling to find motivation to read? Discover practical tips to reignite your love for books!
             From setting realistic reading goals and creating a cozy reading nook to choosing the right book
             and joining a book club, our guide covers it all. Dive into engaging reads like{" "}
-            <strong>"THE ABANDONMENT:
+            <strong className="text-[#09332c]">"THE ABANDONMENT:
             A Hollywood Bombshell"</strong> and transform your reading habits today. Explore how creating
             a distraction-free environment and tracking your progress can keep you on track. Ready to get
             your reading mojo back? Read more now!
@@ -61,7 +61,7 @@ const Blog = () => {
           <div className="text-center">
             <Link
               href="/complete-blog/blog1"
-              className="text-gray-700 underline text-lg font-medium hover:text-myblack transition font-serif"
+              className="text-james underline text-lg font-medium hover:text-[#09332c] transition font-serif"
             >
               Read More
             </Link>
@@ -92,7 +92,7 @@ const Blog = () => {
           </p>
           <p className="text-center text-sm sm:text-base mb-8">• 5/28/19</p>
 
-          <h1 className="text-center text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-10  text-myblack font-serif">
+          <h1 className="text-center text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-10  text-james font-serif">
             Immersing Yourself in Historical Fiction: Why It's Worth Your Time
           </h1>
 
@@ -104,14 +104,14 @@ const Blog = () => {
             intricacies of ancient civilizations or navigating the tumult of more recent events, historical
             fiction offers a gateway to understanding the complexities of the past while illuminating
             timeless truths about the human experience. In works like{" "}
-            <strong>"La Lucha Por Mi Almas"</strong>, set amidst the Orphan Trains era, the resonance of history is
+            <strong className="text-[#09332c]">"La Lucha Por Mi Almas"</strong>, set amidst the Orphan Trains era, the resonance of history is
             palpable, inviting readers to embark on a journey of discovery, empathy, and enlightenment.
           </p>
 
           <div className="text-center">
             <Link
               href="/complete-blog/blog2"
-              className="text-gray-700 underline text-lg font-medium hover:text-myblack transition font-serif"
+              className="text-james underline text-lg font-medium hover:text-[#09332c] transition font-serif"
             >
               Read More
             </Link>

@@ -15,9 +15,10 @@ const About = () => {
     <>
       <Header />
 
-      <section className="bg-[#739792] w-full py-20 px-6 md:px-16 font-serif text-black">
+      <section className="bg-white w-full py-20 px-6 md:px-16 font-serif text-black">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-start gap-12 lg:gap-20">
-          {/* Left Side - Image */}
+          {/* Left Side - Image   bg-[#739792] */}
+          {/* Left Side - Image  */}
           <div className="w-full lg:w-[30%] flex justify-center">
             <div className="w-[320px] h-[450px] relative rounded-2xl overflow-hidden shadow-lg">
               <Image
@@ -32,7 +33,7 @@ const About = () => {
 
           {/* Right Side - Text */}
           <div className="w-full lg:w-[70%]">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-review">About the Author</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-[#09332c]">About the Author</h2>
             <h3 className="text-2xl md:text-3xl font-semibold mb-8">James Larry Holmes JR.</h3>
 
             <div className="space-y-8 text-[16px] leading-8 tracking-wide">
@@ -58,13 +59,13 @@ const About = () => {
                 Educationally, the author possesses advanced degrees that underpin their expertise in leadership and counseling. Their formal training, combined with years of practical experience, fuels their passion for writing. The journey to authoring "Managing Difficult People Like Disciples" and “I’m Out, The reason why I’m Leaving the Church” and the “50 Lord Laws of Leadership” was born from a desire to share their knowledge and strategies with a broader audience. This book serves as both a guide and a resource, designed for anyone looking to enhance their skills in managing relationships, whether in the workplace, community, or personal life.
               </p>
 
-              <div className="italic pl-4 border-l-4 border-myblack">
+              <div className="italic pl-4 border-l-4 border-[#09332c]">
                <p>  
                 “In their writing, the author adopts a relatable and straightforward style, breaking down complex concepts into actionable insights. Personal anecdotes from their life as a veteran, police officer, and pastor add depth to their message, making it accessible and engaging for readers from all walks of life. They aim not merely to inform but to inspire readers to approach difficult situations with empathy and understanding.” 
                </p>
                <br />
                <p>
-                 “The <strong>author’s</strong> mission is to foster positive relationships and promote personal growth through effective communication and leadership principles. They aspire to continue writing on topics of personal development, community engagement, and faith-based leadership, hoping to empower others to manage difficulties with grace and resilience. Their dedication to improving lives both through therapy and literature exemplifies his commitment to service in all its forms.”<span className="text-myblack font-semibold font-serif"> – James Larry Holmes JR. </span>
+                 “The <strong className="text-[#3d756c]">author’s</strong> mission is to foster positive relationships and promote personal growth through effective communication and leadership principles. They aspire to continue writing on topics of personal development, community engagement, and faith-based leadership, hoping to empower others to manage difficulties with grace and resilience. Their dedication to improving lives both through therapy and literature exemplifies his commitment to service in all its forms.”<span className="text-[#09332c] font-semibold font-serif"> – James Larry Holmes JR. </span>
                </p>
               </div>
             </div>
@@ -73,7 +74,7 @@ const About = () => {
             <div className="mt-14 text-center">
               <Link
                 href={"https://a.co/d/9tIeO8g"} target="_blank"
-                className="inline-block text-white bg-myblack text-lg font-semibold px-10 py-4 rounded-full transition duration-300 hover:bg-opacity-80 hover:scale-105"
+                className="inline-block text-white bg-[#09332c] text-lg font-semibold px-10 py-4 rounded-full transition duration-300 hover:bg-opacity-80 hover:scale-105"
               >
                 Get The Book Here!
               </Link>

@@ -36,7 +36,7 @@ const Blog1 = () => {
         </div>
 
         {/* Title */}
-        <h1 className="text-4xl sm:text-5xl font-bold mt-8 leading-tight tracking-tight text-myblack">
+        <h1 className="text-4xl sm:text-5xl font-bold mt-8 leading-tight tracking-tight text-james">
           Finding Your Reading Mojo: <br />
           How to Get Motivated to Start Reading Again
         </h1>
@@ -103,7 +103,7 @@ const Blog1 = () => {
 
           <div className="mt-8 flex justify-center">
             <Link href={" https://a.co/d/9tIeO8g"}>
-            <button className="bg-black text-white px-10 py-5 rounded-full hover:bg-white hover:text-black hover:shadow-lg transition-all duration-300 font-semibold tracking-wider">
+            <button className="bg-james text-white px-10 py-5 rounded-full hover:bg-white hover:text-black hover:shadow-lg transition-all duration-300 font-semibold tracking-wider">
               Read "THE ABANDONMENT:<br />
               A Hollywood Bombshell"
             </button>
@@ -149,7 +149,7 @@ const Blog1 = () => {
         <div className="px-6 sm:px-12 lg:px-20 xl:px-28 mt-14 border-t pt-6">
           <div className="text-left">
             <Link href="/complete-blog/blog2">
-              <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold hover:underline leading-snug cursor-pointer text-review">
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold hover:underline leading-snug cursor-pointer text-[#09332c]">
                 Immersing Yourself in &gt; <br />
                 Historical Fiction: <br />
                 Why It's Worth Your Time

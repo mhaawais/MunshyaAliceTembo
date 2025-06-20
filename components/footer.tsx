@@ -52,7 +52,7 @@ const Footer = () => {
               📞 Contact: <a href="tel:1117773333" className="hover:underline">111-777-3333</a>
             </p> */}
             <p className="text-sm sm:text-base font-medium text-[#3d756c] flex items-center gap-2">
-              <FaEnvelope className="text-red-600" />
+              <FaEnvelope className="text-green-600" />
               Email:{" "}
               <a href="mailto:info.james@gmail.com" className="hover:underline">
                 info.james@gmail.com

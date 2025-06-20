@@ -36,7 +36,7 @@ const Blog2 = () => {
         </div>
 
         {/* Title */}
-        <h1 className="text-4xl sm:text-5xl font-bold mt-8 leading-tight tracking-tight  text-myblack">
+        <h1 className="text-4xl sm:text-5xl font-bold mt-8 leading-tight tracking-tight  text-james">
           Immersing Yourself in Historical Fiction: <br />
           Why It's Worth Your Time
         </h1>
@@ -110,7 +110,7 @@ const Blog2 = () => {
 
           <div className="mt-8 flex justify-center">
             <Link href={""}>
-            <button className="bg-black text-white px-10 py-5 rounded-full hover:bg-white hover:text-black hover:shadow-lg transition-all duration-300 font-semibold tracking-wider">
+            <button className="bg-james text-white px-10 py-5 rounded-full hover:bg-white hover:text-black hover:shadow-lg transition-all duration-300 font-semibold tracking-wider">
               Get “La Lucha Por Mi Almas" Here
             </button>
             </Link>
@@ -152,7 +152,7 @@ const Blog2 = () => {
         <div className="px-6 sm:px-12 lg:px-20 xl:px-28 mt-14 border-t pt-6">
           <div className="text-left">
             <Link href="/complete-blog/blog1">
-              <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold hover:underline leading-snug cursor-pointer text-review">
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold hover:underline leading-snug cursor-pointer text-[#09332c]">
                 &lt; Finding Your Reading Mojo: <br />
                 How to Get Motivated to Start Reading Again
               </h2>
