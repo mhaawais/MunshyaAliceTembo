@@ -36,7 +36,7 @@ const Hero2 = () => {
           </Link>
         </div> */}
         <div className="bg-[#64a59a] p-4 rounded-md w-full max-w-[500px] flex flex-col justify-center items-center lg:items-start min-h-[320px] text-center lg:text-left font-serif">
-          <p className="font-bold text-[#bd3b42] uppercase tracking-wide mb-1 text-base sm:text-lg md:text-xl lg:text-2xl">
+          <p className="font-bold text-white uppercase tracking-wide mb-1 text-base sm:text-lg md:text-xl lg:text-2xl">
             JUST RELEASED —
           </p>
           <h2 className="text-2xl md:text-3xl font-bold text-myblack mb-2">

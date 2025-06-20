@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-20 xl:px-32 flex flex-col md:flex-row items-center gap-10">
         {/* Left - Text Content */}
         <div className="w-full md:w-1/2 text-center md:text-left">
-          <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-[#bd3b42] mb-3">
+          <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-white mb-3">
             OUT NOW —
           </h2>
 
@@ -23,7 +23,7 @@ const Hero = () => {
           <Link href="https://a.co/d/9tIeO8g" target="_blank">
             <button
               aria-label="Get the book from Amazon"
-              className="bg-[#bd3b42] text-white uppercase text-base sm:text-lg font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-full border-2 border-white/50 shadow-2xl hover:bg-opacity-95 hover:shadow-[0_0_20px_rgba(255,255,255,0.7)] hover:scale-105 transition-transform duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-white/70"
+              className="bg-[#09332c] text-white uppercase text-base sm:text-lg font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-full border-2 border-white/50 shadow-2xl hover:bg-opacity-95 hover:shadow-[0_0_20px_rgba(255,255,255,0.7)] hover:scale-105 transition-transform duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-white/70 hover:brightness-90"
             >
               Get the Book
             </button>

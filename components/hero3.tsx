@@ -17,10 +17,10 @@ const Hero3 = () => {
         
 
 
-        {/* Testimonial 1 */}
-        <div className="bg-[#c7d3e4] p-6 rounded-md shadow-md">
+        {/* Testimonial 1   bg-[#c7d3e4]*/}
+        <div className="bg-white p-6 rounded-md shadow-md">
           <p className="text-lg leading-relaxed italic mb-4">
-            "Opening with a powerful and unsettling moment, <span className='font-semibold'>I'm Out</span> is filled with vivid imagery, intense emotion, and unexpected insights into church life. Dwight Vincent Green Jr.'s account of spiritual disillusionment and transformation is authentic, compelling, and deeply affecting—taking readers through a journey that is honest, courageous, and unforgettable."
+            "Opening with a powerful and unsettling moment, <span className='font-semibold'>The Abandonment: A Hollywood Bombshell</span> is filled with vivid imagery, intense emotion, and unexpected insights into church life. James Larry Holmes Jr.'s account of spiritual disillusionment and transformation is authentic, compelling, and deeply affecting—taking readers through a journey that is honest, courageous, and unforgettable."
           </p>
           <p className="text-right font-semibold text-myblack font-serif">
             — Lon Otto
@@ -34,9 +34,9 @@ const Hero3 = () => {
 
 
         {/* Testimonial 2 */}
-        <div className="bg-[#c7d3e4] p-6 rounded-md shadow-md">
+        <div className="bg-white p-6 rounded-md shadow-md">
           <p className="text-lg leading-relaxed mb-4">
-             "Dwight Vincent Green Jr. was once a devoted church member and respected figure in his community. In <span className='font-semibold'>I'm Out,</span> he shares his heartfelt experiences and painful reflections with clarity and purpose. This honest narrative explores the emotional weight of religious disillusionment and the search for spiritual identity outside of tradition. The book is insightful and thought-provoking, connecting deeply with anyone who has questioned their beliefs. This is a multi-layered account that will resonate with those interested in personal transformation, modern spirituality, and anyone seeking to turn adversity into a path toward freedom."
+             "James Larry Holmes Jr. was once a devoted church member and respected figure in his community. In <span className='font-semibold'>The Abandonment: A Hollywood Bombshell,</span> he shares his heartfelt experiences and painful reflections with clarity and purpose. This honest narrative explores the emotional weight of religious disillusionment and the search for spiritual identity outside of tradition. The book is insightful and thought-provoking, connecting deeply with anyone who has questioned their beliefs. This is a multi-layered account that will resonate with those interested in personal transformation, modern spirituality, and anyone seeking to turn adversity into a path toward freedom."
           </p>
           <p className="text-right font-semibold text-myblack font-serif">
             — Terry Seward
@@ -51,9 +51,9 @@ const Hero3 = () => {
 
 
         {/* Testimonial 3 */}
-        <div className="bg-[#c7d3e4] p-6 rounded-md shadow-md">
+        <div className="bg-white p-6 rounded-md shadow-md">
           <p className="text-lg leading-relaxed italic mb-4">
-            "<span className='font-semibold'>I'm Out</span> captures the personal story of an individual confronting long-standing religious tradition in a small-town church setting. At a time when questioning faith is often stigmatized, Dwight Vincent Green Jr. courageously explores the reasons behind his departure. Loosely based on real experiences, this powerful narrative blends spiritual conflict, societal pressure, and the quest for truth. A compelling read for those interested in modern faith journeys and thoughtful religious critique."
+            "<span className='font-semibold'>La Lucha Por Mi Almas</span> captures the personal story of an individual confronting long-standing religious tradition in a small-town church setting. At a time when questioning faith is often stigmatized, James Larry Holmes Jr. courageously explores the reasons behind his departure. Loosely based on real experiences, this powerful narrative blends spiritual conflict, societal pressure, and the quest for truth. A compelling read for those interested in modern faith journeys and thoughtful religious critique."
           </p>
           <p className="text-right font-semibold text-myblack font-serif">
             — Jonathan Bean, Ph.D
@@ -68,9 +68,9 @@ const Hero3 = () => {
 
 
         {/* Testimonial 4 */}
-        <div className="bg-[#c7d3e4] p-6 rounded-md shadow-md">
+        <div className="bg-white p-6 rounded-md shadow-md">
           <p className="text-lg leading-relaxed mb-4">
-            "Growing up, I knew Dwight had deep roots in the church—but I never understood the full weight of his story until he shared it in <span className='font-semibold'>I'm Out</span>. His journey is eye-opening and deeply personal. Stories like his remind us how courageously people have walked away from comfort to live in alignment with their truth."
+            "Growing up, I knew James had deep roots in the church—but I never understood the full weight of his story until he shared it in <span className='font-semibold'>La Lucha Por Mi Almas</span>. His journey is eye-opening and deeply personal. Stories like his remind us how courageously people have walked away from comfort to live in alignment with their truth."
           </p>
           <p className="text-right font-semibold text-myblack font-serif">
             — Vicky Turl

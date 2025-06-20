@@ -25,7 +25,7 @@ const AuthorIntro = () => {
 
       {/* Right Side - Content with Animation */}
       <div className="w-full lg:w-1/2 bg-[#f0f3e7] flex flex-col justify-center p-6 sm:p-10 lg:p-14">
-        <h3 className="text-myred text-lg sm:text-xl font-semibold uppercase tracking-wider transition-all duration-700">
+        <h3 className="bg-[#09332c] text-white text-lg sm:text-xl font-semibold uppercase tracking-wider transition-all duration-700">
           MEET JAMES LARRY —— 
         </h3>
 
@@ -40,7 +40,7 @@ const AuthorIntro = () => {
 
         <Link
           href="/about"
-          className="mt-8 px-6 py-3 bg-myred hover:brightness-90 text-white font-semibold rounded-full border-2 border-red-500 shadow-lg transition-all duration-300 w-fit"
+          className="mt-8 px-6 py-3 bg-[#09332c] hover:brightness-90 text-white font-semibold rounded-full border-2 border-green-950 shadow-lg transition-all duration-300 w-fit"
         >
           Explore More
         </Link>

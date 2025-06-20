@@ -77,7 +77,7 @@ const Header = () => {
         <div>
           {/* Right - Large Styled Button */}
           <Link href={"https://a.co/d/9tIeO8g"} target="_blank">
-            <button className="bg-[#3d756c] text-black px-16 py-6 rounded-full text-xl font-bold hover:brightness-90 transition-all">
+            <button className="bg-[#3d756c] text-white px-16 py-6 rounded-full text-xl font-bold hover:brightness-90 transition-all">
               GET THE BOOK
             </button>
           </Link>
@@ -157,7 +157,7 @@ const Header = () => {
             <Link href={"https://a.co/d/9tIeO8g"} target="_blank">
               <button
                 onClick={toggleMenu}
-                className="mt-10 bg-[#3d756c] text-black px-12 py-7 rounded-full text-2xl font-bold hover:brightness-90 transition-all"
+                className="mt-10 bg-[#3d756c] text-white px-12 py-7 rounded-full text-2xl font-bold hover:brightness-90 transition-all"
               >
                 GET THE BOOK
               </button>

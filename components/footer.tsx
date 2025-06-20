@@ -1,12 +1,12 @@
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { FaPhone, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer className="bg-[#bce1dc] text-mycolor w-full px-6 py-10">
       <div className="flex flex-col md:flex-col lg:flex-row justify-between items-center gap-10">
-
         {/* Section 1 - Book Image */}
         <div className="flex w-full lg:w-1/3 justify-center lg:justify-end">
           <div className="p-2 rounded-md">
@@ -22,12 +22,10 @@ const Footer = () => {
         {/* Section 2 - Text and Button */}
         <div className="flex flex-col items-center text-center justify-center w-full lg:w-1/3">
           <p className="text-lg font-serif mb-4 text-black">
-            Now available in paperback and eBook from Amazon and other book sellers.
+            Now available in paperback and eBook from Amazon and other book
+            sellers.
           </p>
-          <Link
-            href="https://a.co/d/0Kge1Ax"
-            target="_blank"
-          >
+          <Link href="https://a.co/d/0Kge1Ax" target="_blank">
             <button className="bg-[#3d756c] text-black px-8 py-4 rounded-full text-lg font-bold hover:brightness-90 transition-all">
               GET THE BOOK
             </button>
@@ -47,19 +45,31 @@ const Footer = () => {
             </div>
           </a>
           <div className="text-center lg:text-left space-y-1">
-            <p className="text-sm sm:text-base font-medium text-[#3d756c]">
+            {/* <p className="text-sm sm:text-base font-medium text-[#3d756c]">
               📧 Email: <a href="mailto:Pdgpnation@gmail.com" className="hover:underline">info.james@gmail.com</a>
             </p>
             <p className="text-sm sm:text-base font-medium text-[#3d756c]">
               📞 Contact: <a href="tel:1117773333" className="hover:underline">111-777-3333</a>
+            </p> */}
+            <p className="text-sm sm:text-base font-medium text-[#3d756c] flex items-center gap-2">
+              <FaEnvelope className="text-red-600" />
+              Email:{" "}
+              <a href="mailto:info.james@gmail.com" className="hover:underline">
+                info.james@gmail.com
+              </a>
+            </p>
+            <p className="text-sm sm:text-base font-medium text-[#3d756c] flex items-center gap-2">
+              <FaPhone className="text-green-600 scale-x-[-1]" />
+              Contact:{" "}
+              <a href="tel:1117773333" className="hover:underline">
+                111-777-3333
+              </a>
             </p>
           </div>
         </div>
-
       </div>
     </footer>
   );
 };
 
 export default Footer;
-
