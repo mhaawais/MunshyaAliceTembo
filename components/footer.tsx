@@ -45,24 +45,19 @@ const Footer = () => {
             </div>
           </a>
           <div className="text-center lg:text-left space-y-1">
-            {/* <p className="text-sm sm:text-base font-medium text-[#3d756c]">
-              📧 Email: <a href="mailto:Pdgpnation@gmail.com" className="hover:underline">info.james@gmail.com</a>
-            </p>
-            <p className="text-sm sm:text-base font-medium text-[#3d756c]">
-              📞 Contact: <a href="tel:1117773333" className="hover:underline">111-777-3333</a>
-            </p> */}
+
             <p className="text-sm sm:text-base font-medium text-[#3d756c] flex items-center gap-2">
               <FaEnvelope className="text-green-600" />
               Email:{" "}
-              <a href="mailto:info.james@gmail.com" className="hover:underline">
-                info.james@gmail.com
+              <a href="mailto:Fightformysoul1968@gmail.com" className="hover:underline">
+                Fightformysoul1968@gmail.com
               </a>
             </p>
             <p className="text-sm sm:text-base font-medium text-[#3d756c] flex items-center gap-2">
               <FaPhone className="text-green-600 scale-x-[-1]" />
               Contact:{" "}
-              <a href="tel:1117773333" className="hover:underline">
-                111-777-3333
+              <a href="tel:+19293432375" className="hover:underline">
+                (929) 343-2375
               </a>
             </p>
           </div>
