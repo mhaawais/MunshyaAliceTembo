@@ -37,7 +37,7 @@ const Header = () => {
           <nav className="flex gap-10 text-xl font-semibold tracking-wide">
             <a
               href="/"
-              className="relative group text-[#154941] hover:text-myblack transition-colors"
+              className="relative group text-[#154941] hover:brightness-150 transition-colors"
             >
               HOME
               <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#154941] transition-all duration-500 group-hover:w-full"></span>
@@ -45,7 +45,7 @@ const Header = () => {
 
             <a
               href="/about"
-              className="relative group text-[#154941] hover:text-myblack transition-colors"
+              className="relative group text-[#154941] hover:brightness-150 transition-colors"
             >
               ABOUT
               <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#154941] transition-all duration-500 group-hover:w-full"></span>
@@ -53,7 +53,7 @@ const Header = () => {
 
             <a
               href="/blog"
-              className="relative group text-[#154941] hover:text-myblack transition-colors"
+              className="relative group text-[#154941] hover:brightness-150 transition-colors"
             >
               BLOG
               <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#154941] transition-all duration-500 group-hover:w-full"></span>
@@ -127,7 +127,7 @@ const Header = () => {
             <a
               href="/"
               onClick={toggleMenu}
-              className="relative group text-[#154941] hover:text-myblack transition-colors"
+              className="relative group text-[#154941] hover:brightness-150 transition-colors"
             >
               HOME
               <span className="absolute left-0 -bottom-1 w-0 h-[3px] bg-[#154941] transition-all duration-500 group-hover:w-full"></span>
@@ -136,7 +136,7 @@ const Header = () => {
             <a
               href="/about"
               onClick={toggleMenu}
-              className="relative group text-[#154941] hover:text-myblack transition-colors"
+              className="relative group text-[#154941] hover:brightness-150 transition-colors"
             >
               ABOUT
               <span className="absolute left-0 -bottom-1 w-0 h-[3px] bg-[#154941] transition-all duration-500 group-hover:w-full"></span>
@@ -145,7 +145,7 @@ const Header = () => {
             <a
               href="/blog"
               onClick={toggleMenu}
-              className="relative group text-[#154941] hover:text-myblack transition-colors"
+              className="relative group text-[#154941] hover:brightness-150 transition-colors"
             >
               BLOG
               <span className="absolute left-0 -bottom-1 w-0 h-[3px] bg-[#154941] transition-all duration-500 group-hover:w-full"></span>

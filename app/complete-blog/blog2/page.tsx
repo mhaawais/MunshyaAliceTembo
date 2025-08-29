@@ -109,7 +109,7 @@ const Blog2 = () => {
           </p>
 
           <div className="mt-8 flex justify-center">
-            <Link href={""}>
+            <Link href={"https://a.co/d/0Kge1Ax"}>
             <button className="bg-james text-white px-10 py-5 rounded-full hover:bg-white hover:text-black hover:shadow-lg transition-all duration-300 font-semibold tracking-wider">
               Get “La Lucha Por Mi Almas" Here
             </button>
