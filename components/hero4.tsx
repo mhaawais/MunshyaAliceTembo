@@ -66,7 +66,7 @@ const Hero4 = () => {
         <div className="flex min-h-[80svh] items-center py-16 md:py-24">
           <div className="w-full">
             {/* Headline */}
-            <div className="max-w-3xl text-[#15ceb8]">
+            <div className="max-w-3xl text-red-800">
               <h1 className="text-4xl font-bold font-mono tracking-tight sm:text-5xl md:text-6xl">
                 Chill Vibes, Clear Mind
               </h1>

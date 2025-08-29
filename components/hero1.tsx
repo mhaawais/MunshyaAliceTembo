@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8 sm:gap-10 lg:gap-12 xl:gap-16">
           {/* LEFT: text */}
           <div className="order-2 md:order-1 w-full text-center md:text-left">
-            <span className="inline-block rounded-full border border-white/30 bg-white/10 px-3 py-1 text-xs sm:text-sm font-semibold tracking-wide text-white/90">
+            <span className="inline-block rounded-full border border-white/30 bg-red-800 px-3 py-1 text-xs sm:text-sm font-semibold tracking-wide text-white/90">
               OUT NOW —
             </span>
 
@@ -49,7 +49,7 @@ const Hero = () => {
                 aria-label="Get the book from Amazon"
                 className="group inline-flex items-center gap-2 rounded-full bg-[#09332c] px-7 sm:px-8 py-3.5 text-sm sm:text-base font-semibold uppercase tracking-wide text-white
                            ring-1 ring-white/20 shadow-[0_8px_30px_rgba(0,0,0,0.2)]
-                           transition will-change-transform hover:-translate-y-0.5 hover:brightness-110 hover:shadow-[0_10px_40px_rgba(0,0,0,0.25)]
+                           transition will-change-transform hover:-translate-y-0.5 hover:brightness-150 hover:shadow-[0_10px_40px_rgba(0,0,0,0.25)]
                            focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70 active:translate-y-0"
               >
                 Get the Book
@@ -98,3 +98,74 @@ const Hero = () => {
 };
 
 export default Hero;
+
+
+
+
+
+
+
+
+
+
+
+// import React from "react";
+// import Image from "next/image";
+// import Link from "next/link";
+
+// const Hero = () => {
+//   return (
+//     <section
+//       id="book-1"
+//       className="bg-[#458076] text-white py-12 md:py-16 lg:py-20"
+//     >
+//       <div className="container mx-auto px-4 sm:px-6 lg:px-20 xl:px-32 flex flex-col md:flex-row items-center gap-12">
+//         {/* LEFT CONTENT     [#f8f8f8]*/}
+//         <div className="w-full md:w-1/2 text-center md:text-left">
+//           <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-extrabold text-white tracking-wide mb-3">
+//             OUT NOW —
+//           </h2>
+
+//           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight text-[#1a1a1a] mb-5">
+//             THE ABANDONMENT:
+//             <br className="hidden sm:block" />
+//             <span className="text-white">A Hollywood Bombshell</span>
+//           </h1>
+
+//           <p className="text-sm sm:text-base lg:text-lg mb-8 text-[#f8f8f8] leading-relaxed max-w-xl mx-auto md:mx-0">
+//             In this book, James Larry offers a bold, deeply personal, and
+//             unapologetically honest reflection on resilience, growth, and
+//             self-belief. This isn’t a sugar-coated self-help guide. It’s a
+//             journey through the mess, the mistakes, and the miracles of a life
+//             still unfolding.
+//           </p>
+
+//           <Link href="https://a.co/d/9tIeO8g" target="_blank" rel="noopener noreferrer">
+//             <button
+//               aria-label="Get the book from Amazon"
+//               className="rounded-full bg-[#09332c] border-2 border-white px-8 py-3 text-base sm:text-lg font-semibold uppercase tracking-wide text-white shadow-[0_4px_20px_rgba(255,255,255,0.4)] transition-transform duration-300 hover:scale-105 hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-white"
+//             >
+//               Get the Book
+//             </button>
+//           </Link>
+//         </div>
+
+//         {/* RIGHT IMAGE */}
+//         <div className="w-full md:w-1/2 flex justify-center">
+//           <div className="relative">
+//             <Image
+//               src="/assets/images/photo-8.JPG"
+//               alt="Book Cover"
+//               width={420}
+//               height={560}
+//               className="w-full max-w-[320px] sm:max-w-[380px] md:max-w-[440px] lg:max-w-[480px] rounded-lg shadow-2xl ring-2 ring-white/20"
+//               priority
+//             />
+//           </div>
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default Hero;

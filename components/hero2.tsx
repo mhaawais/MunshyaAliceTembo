@@ -28,7 +28,7 @@ const Hero2 = () => {
 
         {/* TEXT CONTENT */}
         <div className="order-2 lg:order-1">
-          <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1 text-[11px] font-semibold uppercase tracking-wider text-white shadow-sm ring-1 ring-white/10">
+          <span className="inline-flex items-center gap-2 rounded-full bg-red-800 px-4 py-1 text-[11px] font-semibold uppercase tracking-wider text-white shadow-sm ring-1 ring-white/10">
             <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
             Just Released —
           </span>
@@ -57,7 +57,7 @@ const Hero2 = () => {
 
           <div className="mt-7">
             <Link href={"https://a.co/d/0Kge1Ax"} target="_blank" rel="noopener noreferrer">
-              <button className="inline-flex items-center justify-center rounded-xl bg-emerald-400 px-7 py-3.5 text-sm font-semibold tracking-wide text-[#06221d] shadow-[0_10px_30px_rgba(16,185,129,0.25)] transition-all duration-300 hover:translate-y-[-1px] hover:bg-emerald-300 active:translate-y-0">
+              <button className="font-extrabold inline-flex items-center justify-center rounded-xl bg-emerald-400 px-7 py-3.5 text-base md:text-lg font-sans tracking-wide text-[#06221d] shadow-[0_10px_30px_rgba(16,185,129,0.25)] transition-all duration-300 hover:translate-y-[-1px] hover:brightness-150 active:translate-y-0">
                 Get The BooK!
               </button>
             </Link>

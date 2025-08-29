@@ -46,7 +46,7 @@ export default function AuthorsSection() {
 
           {/* Content */}
           <div className="order-2 space-y-6">
-            <span className="inline-flex items-center rounded-full bg-[#09332c] px-4 py-1 text-xs font-semibold tracking-wider text-white">
+            <span className="inline-flex items-center rounded-full bg-red-800 px-4 py-1 text-xs font-semibold tracking-wider text-white">
               MEET JAMES LARRY —
             </span>
 
@@ -139,7 +139,7 @@ export default function AuthorsSection() {
         <div className="grid items-center gap-10 lg:grid-cols-2">
           {/* Content */}
           <div className="order-2 space-y-6 lg:order-none">
-            <span className="inline-flex items-center rounded-full bg-[#09332c] px-4 py-1 text-xs font-semibold tracking-wider text-white">
+            <span className="inline-flex items-center rounded-full bg-red-800 px-4 py-1 text-xs font-semibold tracking-wider text-white">
               MEET SHIRLEY —
             </span>
 

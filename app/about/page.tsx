@@ -136,8 +136,8 @@ const About = () => {
                 {/* <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-emerald-900/80">
                   MEET THE AUTHOR
                 </p> */}
-                <p className="mx-auto inline-flex items-center rounded-full bg-[#09332c] px-4 py-1 text-sm font-semibold tracking-wider text-white">
-                  MEET THE AUTHORS —
+                <p className="mx-auto inline-flex items-center rounded-full bg-red-800 px-4 py-1 text-sm font-semibold tracking-wider text-white">
+                  MEET THE AUTHOR —
                 </p>
                 <h2 className="mt-2 text-4xl sm:text-5xl font-extrabold text-[#09332c] leading-tight">
                   James Larry Holmes Jr.
@@ -266,8 +266,8 @@ const About = () => {
                 {/* <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-emerald-900/80">
                   MEET THE CREATIVE
                 </p> */}
-                <p className="mx-auto inline-flex items-center rounded-full bg-[#09332c] px-4 py-1 text-xs font-semibold tracking-wider text-white">
-                  MEET THE CREATIVE
+                <p className="mx-auto inline-flex items-center rounded-full bg-red-800 px-4 py-1 text-xs font-semibold tracking-wider text-white">
+                  MEET THE CREATIVE —
                 </p>
                 <h2 className="mt-2 text-4xl sm:text-5xl font-extrabold text-[#09332c] leading-tight">
                   Shirley Velázquez
