@@ -35,7 +35,7 @@ const Hero2 = () => {
 
           <h1
             id="hero2-heading"
-            className="mt-3 text-3xl font-extrabold leading-tight text-white sm:text-4xl md:text-5xl"
+            className="mt-3 text-3xl font-extrabold leading-tight text-white sm:text-4xl md:text-5xl font-serif"
           >
             La Lucha Por Mi Almas
             <span className="block text-lg font-semibold text-emerald-300/90 sm:text-xl md:text-2xl">

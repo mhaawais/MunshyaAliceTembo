@@ -52,8 +52,8 @@ const About = () => {
     "/assets/images/james-3.jpeg",
     "/assets/images/james-4.jpeg",
     "/assets/images/james-6.jpg",
-    "/assets/images/photo-4.png", // duplicate as filler; replace with a 5th/6th when ready
-    "/assets/images/mockup-3.png",
+    "/assets/images/my-m3.png", // duplicate as filler; replace with a 5th/6th when ready
+    "/assets/images/photo-4.png",
   ];
 
   // const shirleyGallery = [

@@ -8,7 +8,7 @@ export default function AuthorsSection() {
     <section
       id="authors"
       aria-labelledby="authors-heading"
-      className="relative overflow-hidden bg-gradient-to-b from-[#f0f3e7] to-white"
+      className="relative overflow-hidden bg-gradient-to-b from-[#f0f3e7] to-white pt16"
     >
       {/* Decorative background blur */}
       <div className="pointer-events-none absolute -top-24 -left-24 h-72 w-72 rounded-full bg-emerald-700/10 blur-3xl" />
@@ -70,7 +70,7 @@ export default function AuthorsSection() {
               spiritually.
             </p>
 
-            <div className="grid gap-4 sm:grid-cols-2">
+            <div id="all-books" className="grid gap-4 sm:grid-cols-2">
               {/* Book 1 */}
               <Link
                 href="#book-1"

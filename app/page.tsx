@@ -6,6 +6,7 @@ import Hero2 from "@/components/hero2";
 import Hero3 from "@/components/hero3";
 import type { Metadata } from "next";
 import AuthorIntro from "@/components/about";
+import Hero4 from "@/components/hero4";
 
 export const metadata: Metadata = {
   title: "Official Book Website by James",
@@ -19,6 +20,7 @@ export default function Home() {
        <Header />
        <Hero1 />
        <Hero2 />
+       <Hero4 />
        <AuthorIntro />
        <Hero3 />
        <Footer />
