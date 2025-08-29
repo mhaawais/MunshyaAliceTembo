@@ -149,7 +149,7 @@ const Blog1 = () => {
         <div className="px-6 sm:px-12 lg:px-20 xl:px-28 mt-14 border-t pt-6">
           <div className="text-left">
             <Link href="/complete-blog/blog2">
-              <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold hover:underline leading-snug cursor-pointer text-[#09332c]">
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold hover:underline leading-snug cursor-pointer text-red-800">
                 Immersing Yourself in &gt; <br />
                 Historical Fiction: <br />
                 Why It's Worth Your Time

@@ -61,7 +61,7 @@ const Blog = () => {
           <div className="text-center">
             <Link
               href="/complete-blog/blog1"
-              className="text-james underline text-lg font-medium hover:text-[#09332c] transition font-serif"
+              className="text-red-800 underline text-lg font-medium hover:text-james transition font-serif"
             >
               Read More
             </Link>
@@ -111,7 +111,7 @@ const Blog = () => {
           <div className="text-center">
             <Link
               href="/complete-blog/blog2"
-              className="text-james underline text-lg font-medium hover:text-[#09332c] transition font-serif"
+              className="text-red-800 underline text-lg font-medium hover:text-james transition font-serif"
             >
               Read More
             </Link>

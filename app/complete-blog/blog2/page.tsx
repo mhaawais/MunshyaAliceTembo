@@ -152,7 +152,7 @@ const Blog2 = () => {
         <div className="px-6 sm:px-12 lg:px-20 xl:px-28 mt-14 border-t pt-6">
           <div className="text-left">
             <Link href="/complete-blog/blog1">
-              <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold hover:underline leading-snug cursor-pointer text-[#09332c]">
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold hover:underline leading-snug cursor-pointer text-red-800">
                 &lt; Finding Your Reading Mojo: <br />
                 How to Get Motivated to Start Reading Again
               </h2>
