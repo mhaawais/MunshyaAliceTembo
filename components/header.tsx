@@ -1,172 +1,139 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
-import { FiMenu, FiX } from "react-icons/fi";
-import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
+import Image from "next/image";
+import { FaBars, FaTimes } from "react-icons/fa";
 
-const Header = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
-
-  const toggleMenu = () => setIsOpen(!isOpen);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 10) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+export default function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header
-      className={`bg-[#bce1dc] w-full border-b sticky top-0 z-50 transition-shadow duration-300 md:static ${
-        scrolled ? "shadow-md" : ""
-      }`}
-    >
-      {/* Desktop Header */}
-      <div className="hidden lg:flex items-center justify-between px-10 py-6 h-[250px]">
-        <div>
-          {/* Left - Navigation */}
-          <nav className="flex gap-10 text-xl font-semibold tracking-wide">
-            <a
+    <header className="bg-[#bce1dc] backdrop-blur-md shadow-lg sticky top-0 z-50 transition-all duration-300">
+      <div className="container mx-auto px-4">
+        <div className="flex items-center justify-between">
+          {/* Logo */}
+          <Link href="/">
+            <Image
+              src="/assets/logo/Author-Logo2.png"
+              alt="logo"
+              width={100}
+              height={100}
+              className="object-contain"
+            />
+          </Link>
+
+          {/* Desktop Navigation */}
+          <nav className="hidden lg:flex items-center space-x-8">
+            <Link
               href="/"
-              className="relative group text-[#154941] hover:brightness-150 transition-colors"
+              className="text-gray-800 hover:text-[#3d756c] hover:underline transition-colors duration-300 font-semibold hover:font-bold text-lg"
             >
-              HOME
-              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#154941] transition-all duration-500 group-hover:w-full"></span>
-            </a>
-
-            <a
+              Home
+            </Link>
+            <Link
+              href="/book"
+              className="text-gray-800 hover:text-[#3d756c] hover:underline transition-colors duration-300 font-semibold hover:font-bold text-lg"
+            >
+              Books
+            </Link>
+            <Link
               href="/about"
-              className="relative group text-[#154941] hover:brightness-150 transition-colors"
+              className="text-gray-800 hover:text-[#3d756c] hover:underline transition-colors duration-300 font-semibold hover:font-bold text-lg"
             >
-              ABOUT
-              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#154941] transition-all duration-500 group-hover:w-full"></span>
-            </a>
-
-            <a
+              Author
+            </Link>
+             <Link
               href="/blog"
-              className="relative group text-[#154941] hover:brightness-150 transition-colors"
+              className="text-gray-800 hover:text-[#3d756c] hover:underline transition-colors duration-300 font-semibold hover:font-bold text-lg"
             >
-              BLOG
-              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#154941] transition-all duration-500 group-hover:w-full"></span>
+              Blogs
+            </Link>
+            <Link
+              href="/contact"
+              className="text-gray-800 hover:text-[#3d756c] hover:underline transition-colors duration-300 font-semibold hover:font-bold text-lg"
+            >
+              Contact
+            </Link>
+          </nav>
+
+          {/* Get Book Button */}
+          <div className="hidden lg:flex items-center space-x-4">
+            <a
+              href="https://www.amazon.com/s?k=Alice+tembo&i=digital-text&crid=8VK7O35ETKRC&sprefix=alice+temb%2Cdigital-text%2C372&ref=nb_sb_noss_2"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="text-white font-bold text-xl px-10 py-5 rounded-full hover:shadow-lg transition-all duration-300 transform hover:scale-105 whitespace-nowrap cursor-pointer
+              bg-[#3d756c] hover:brightness-90">
+                Get the Book
+              </button>
+            </a>
+          </div>
+
+          {/* Mobile Menu Button */}
+          <button
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            className="lg:hidden w-12 h-12 flex items-center justify-center cursor-pointer"
+          >
+            {isMenuOpen ? (
+              <FaTimes className="text-2xl text-[#3d756c] bg-white" />
+            ) : (
+              <FaBars className="text-2xl text-[#3d756c] bg-white" />
+            )}
+          </button>
+        </div>
+
+        {/* Mobile Navigation */}
+        <div
+          className={`bg-[#bce1dc] lg:hidden transition-all duration-300 ${
+            isMenuOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
+          } overflow-hidden`}
+        >
+          <nav className="bg-[#bce1dc] py-4 space-y-4 flex flex-col items-center">
+            <Link
+              href="/"
+              className="block text-gray-800 hover:text-[#3d756c] hover:underline transition-colors duration-300 font-bold text-[18px]"
+            >
+              Home
+            </Link>
+            <Link
+              href="/book"
+              className="block text-gray-800 hover:text-[#3d756c] hover:underline transition-colors duration-300 font-bold text-[18px]"
+            >
+              Books
+            </Link>
+            <Link
+              href="/about"
+              className="block text-gray-800 hover:text-[#3d756c] hover:underline transition-colors duration-300 font-bold text-[18px]"
+            >
+              Author
+            </Link>
+            <Link
+              href="/blog"
+              className="block text-gray-800 hover:text-[#3d756c] hover:underline transition-colors duration-300 font-bold text-[18px]"
+            >
+              Blogs
+            </Link>
+            <Link
+              href="/contact"
+              className="block text-gray-800 hover:text-[#3d756c] hover:underline transition-colors duration-300 font-bold text-[18px]"
+            >
+              Contact
+            </Link>
+            <a
+              href="https://www.amazon.com/s?k=Alice+tembo&i=digital-text&crid=8VK7O35ETKRC&sprefix=alice+temb%2Cdigital-text%2C372&ref=nb_sb_noss_2"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="text-white px-8 py-4 font-semibold rounded-full hover:shadow-lg transition-all duration-300 transform hover:scale-105 whitespace-nowrap cursor-pointer
+              mt-10 bg-[#3d756c] text-2xl hover:brightness-90">
+                Get the Book
+              </button>
             </a>
           </nav>
         </div>
-
-        <div className="h-[200px]">
-          {/* Center - Logo */}
-          <a href="/" className="relative w-[180px] h-[70px]">
-            <Image
-              src="/assets/logo/Author-Logo1.png"
-              alt="Logo"
-              width={200}
-              height={200}
-              className="object-contain"
-            />
-          </a>
-        </div>
-
-        <div>
-          {/* Right - Large Styled Button */}
-          <Link href={"https://a.co/d/9tIeO8g"} target="_blank">
-            <button className="bg-[#3d756c] text-white px-16 py-6 rounded-full text-xl font-bold hover:brightness-90 transition-all">
-              GET THE BOOK
-            </button>
-          </Link>
-        </div>
       </div>
-
-      {/* Mobile Header */}
-      <div className="flex lg:hidden items-center justify-between px-4 py-2 h-[200px]">
-        {/* Left Logo */}
-        <a href="/" className="relative w-[120px] h-[100px]">
-          <Image
-            src="/assets/logo/Author-Logo1.png"
-            alt="Logo"
-            width={220}
-            height={220}
-            className="object-contain"
-          />
-        </a>
-
-        {/* Hamburger / Cross */}
-        <button onClick={toggleMenu} className="text-4xl">
-          {isOpen ? <FiX /> : <FiMenu />}
-        </button>
-      </div>
-
-      {isOpen && (
-        <div className="fixed inset-0 bg-[#bce1dc] z-50 flex flex-col">
-          {/* Top - Logo and Cross */}
-          <div className="flex items-center justify-between px-4 py-2 h-[200px]">
-            <a href="/" className="relative w-[120px] h-[100px]">
-              <Image
-                src="/assets/logo/Author-Logo1.png"
-                alt="Logo"
-                width={220}
-                height={220}
-                className="object-contain"
-              />
-            </a>
-
-            <button onClick={toggleMenu} className="text-4xl">
-              <FiX />
-            </button>
-          </div>
-
-          {/* Center - Navigation Links */}
-          <div className="flex flex-col items-center justify-center flex-grow space-y-10 text-3xl font-semibold tracking-wide">
-            <a
-              href="/"
-              onClick={toggleMenu}
-              className="relative group text-[#154941] hover:brightness-150 transition-colors"
-            >
-              HOME
-              <span className="absolute left-0 -bottom-1 w-0 h-[3px] bg-[#154941] transition-all duration-500 group-hover:w-full"></span>
-            </a>
-
-            <a
-              href="/about"
-              onClick={toggleMenu}
-              className="relative group text-[#154941] hover:brightness-150 transition-colors"
-            >
-              ABOUT
-              <span className="absolute left-0 -bottom-1 w-0 h-[3px] bg-[#154941] transition-all duration-500 group-hover:w-full"></span>
-            </a>
-
-            <a
-              href="/blog"
-              onClick={toggleMenu}
-              className="relative group text-[#154941] hover:brightness-150 transition-colors"
-            >
-              BLOG
-              <span className="absolute left-0 -bottom-1 w-0 h-[3px] bg-[#154941] transition-all duration-500 group-hover:w-full"></span>
-            </a>
-
-            <Link href={"https://a.co/d/9tIeO8g"} target="_blank">
-              <button
-                onClick={toggleMenu}
-                className="mt-10 bg-[#3d756c] text-white px-12 py-7 rounded-full text-2xl font-bold hover:brightness-90 transition-all"
-              >
-                GET THE BOOK
-              </button>
-            </Link>
-          </div>
-        </div>
-      )}
     </header>
   );
-};
-
-export default Header;
-
-
-
+}

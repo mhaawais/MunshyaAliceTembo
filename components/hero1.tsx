@@ -25,25 +25,25 @@ const Hero = () => {
 
             <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.12]">
               <span className="bg-gradient-to-r from-white via-emerald-50 to-white bg-clip-text text-transparent">
-                THE ABANDONMENT:
+                Healing Begins
               </span>
               <br className="hidden sm:block" />
               <span className="bg-gradient-to-r from-amber-200 via-white to-emerald-100 bg-clip-text text-transparent font-serif">
-                A Hollywood Bombshell
+                with YOU
               </span>
             </h1>
 
             <p className="mt-4 text-sm sm:text-base lg:text-lg text-white/90 leading-relaxed max-w-xl mx-auto md:mx-0">
-              In this book, James Larry offers a bold, deeply personal, and
-              unapologetically honest reflection on resilience, growth, and
-              self-belief. This isn’t a sugar-coated self-help guide. It’s a
-              journey through the mess, the mistakes, and the miracles of a life
-              still unfolding.
+              In What If Your Child's Healing Begins with Yours?, Munshya Alice Tembo shares a powerful, 
+              personal journey of healing. This heartfelt book reveals how God can heal a mother’s heart first, 
+              paving the way for her child's restoration. Through biblical truths and real-life stories, 
+              it offers hope, peace, and the strength to rebuild connections with your child. When God heals 
+              a mother, entire generations are restored.
             </p>
 
             <div className="mt-7">
               <Link
-                href="https://a.co/d/9tIeO8g"
+                href="https://www.amazon.com/s?k=Alice+tembo&i=digital-text&crid=8VK7O35ETKRC&sprefix=alice+temb%2Cdigital-text%2C372&ref=nb_sb_noss_2"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Get the book from Amazon"
@@ -78,8 +78,8 @@ const Hero = () => {
               {/* Aspect wrapper prevents shift and overlap; padding & bg keep it premium even with object-contain */}
               <div className="relative aspect-[3/4] rounded-2xl bg-white/10 ring-1 ring-white/20 shadow-2xl p-2">
                 <Image
-                  src="/assets/images/photo-8.JPG"
-                  alt="Book cover for THE ABANDONMENT: A Hollywood Bombshell"
+                  src="/assets/images/book-cover.png"
+                  alt="Book cover"
                   fill
                   sizes="(max-width: 640px) 80vw, (max-width: 1024px) 40vw, 36vw"
                   className="rounded-xl object-contain"

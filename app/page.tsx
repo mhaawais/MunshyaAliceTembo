@@ -9,9 +9,9 @@ import AuthorIntro from "@/components/about";
 import Hero4 from "@/components/hero4";
 
 export const metadata: Metadata = {
-  title: "Official Book Website by James",
+  title: "Official Book Website by Munshya Alice Tembo",
   description:
-    "Explore 'The Abandonment: A Hollywood Bombshell' and 'La Lucha Por Mi Almas' by James Larry Holmes Jr.—a bold and honest memoir on faith, disillusionment, and spiritual truth. Available now on Amazon. Discover the story behind the departure from the church.",
+    "Explore 'What If Your Child's Healing Begins with Yours?' by Munshya Alice Tembo.—a bold and honest memoir on faith, disillusionment, and spiritual truth. Available now on Amazon. Discover the story complete story.",
 };
 
 export default function Home() {

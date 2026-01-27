@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="flex w-full lg:w-1/3 justify-center lg:justify-end">
           <div className="p-2 rounded-md">
             <Image
-              src="/assets/images/footer.png"
+              src="/assets/images/book-full-1.jpeg"
               alt="Footer Book Image"
               width={300}
               height={330}
@@ -25,7 +25,7 @@ const Footer = () => {
             Now available in paperback and eBook from Amazon and other book
             sellers.
           </p>
-          <Link href="https://a.co/d/0Kge1Ax" target="_blank">
+          <Link href="https://www.amazon.com/s?k=Alice+tembo&i=digital-text&crid=8VK7O35ETKRC&sprefix=alice+temb%2Cdigital-text%2C372&ref=nb_sb_noss_2" target="_blank">
             <button className="bg-[#3d756c] text-black px-8 py-4 rounded-full text-lg font-bold hover:brightness-90 transition-all">
               GET THE BOOK
             </button>
@@ -37,7 +37,7 @@ const Footer = () => {
           <a href="/" className="p-3 rounded-md mb-4">
             <div className="relative w-[250px] h-[120px]">
               <Image
-                src="/assets/logo/Author-Logo1.png"
+                src="/assets/logo/Author-Logo2.png"
                 alt="Logo"
                 layout="fill"
                 objectFit="contain"
@@ -50,14 +50,14 @@ const Footer = () => {
               <FaEnvelope className="text-green-600" />
               Email:{" "}
               <a href="mailto:Fightformysoul1968@gmail.com" className="hover:underline">
-                Fightformysoul1968@gmail.com
+                munshyaalicetembo@gmail.com
               </a>
             </p>
             <p className="text-sm sm:text-base font-medium text-[#3d756c] flex items-center gap-2">
               <FaPhone className="text-green-600 scale-x-[-1]" />
               Contact:{" "}
-              <a href="tel:+19293432375" className="hover:underline">
-                (929) 343-2375
+              <a href="tel:123-456-7890" className="hover:underline">
+                123-456-7890
               </a>
             </p>
           </div>

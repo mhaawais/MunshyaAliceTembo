@@ -22,13 +22,13 @@ const faviconVersion = "v1.2"; // Declare it here
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Dwight Vincent Green Jr.",
-    default: "I'm Out: The Reason Why I'm Leaving The Church",
+    template: "%s | Munshya Alice Tembo.",
+    default: "What If Your Child's Healing Begins with Yours?",
   },
-  description: "Official site for the Amazon book by Dwight Vincent Green Jr.",
+  description: "Official site for the Amazon book by Munshya Alice Tembo.",
   icons: {
     icon: [
-      `/assets/logo/Author-Logo1.png?v=${faviconVersion}`,
+      `/assets/logo/Author-Logo2.png?v=${faviconVersion}`,
       // "/favicon.ico",
     ],
   },
