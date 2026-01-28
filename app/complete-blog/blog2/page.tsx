@@ -5,9 +5,9 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Faith Beyond the Four Walls | 'La Lucha Por Mi Almas' Blog by James Larry Holmes Jr.",
+  title: "Faith Beyond the Four Walls | 'What If Your Child's Healing Begins with Yours?' Blog by Munshya Alice Tembo",
   description:
-    "Faith doesn’t end at the church door. This blog explores the deeper connection with God beyond religious institutions—building on themes from 'La Lucha Por Mi Almas.'",
+    "Faith doesn’t end at the church door. This blog explores the deeper connection with God beyond religious institutions—building on themes from 'What If Your Child's Healing Begins with Yours?.'",
 };
 
 const Blog2 = () => {
@@ -32,7 +32,7 @@ const Blog2 = () => {
 
         {/* Meta */}
         <div className="mt-4 text-[14px] tracking-widest">
-          May 28 &nbsp; - &nbsp; Written By James Larry Holmes Jr.
+          May 28 &nbsp; - &nbsp; Written By Munshya Alice Tembo
         </div>
 
         {/* Title */}
@@ -53,7 +53,7 @@ const Blog2 = () => {
           <p>
             <strong>1. Experience History Firsthand:</strong> Historical fiction
             brings history to life through engaging narratives and vivid
-            details. Books like my novel, "La Lucha Por Mi Almas" set during the era
+            details. Books like my novel, "What If Your Child's Healing Begins with Yours?" set during the era
             of the Orphan Trains, offer an immersive experience that textbooks
             often can’t match.
           </p>
@@ -90,7 +90,7 @@ const Blog2 = () => {
           <hr className="my-8 border-black" />
 
           <p className="font-semibold">
-            My novel, "La Lucha Por Mi Almas," exemplifies the power of historical
+            My novel, "What If Your Child's Healing Begins with Yours?," exemplifies the power of historical
             fiction. Set against the backdrop of the Orphan Trains, it tells a
             story of resilience, hope, and finding one's place in the world.
             Readers have shared how the characters and their journeys have
@@ -104,14 +104,14 @@ const Blog2 = () => {
 
           <p>
             Immerse yourself in the world of historical fiction and discover the
-            magic of the past. Start your journey with "La Lucha Por Mi Almas" and
+            magic of the past. Start your journey with "What If Your Child's Healing Begins with Yours?" and
             experience history like never before. Happy reading!
           </p>
 
           <div className="mt-8 flex justify-center">
             <Link href={"https://a.co/d/0Kge1Ax"}>
             <button className="bg-james text-white px-10 py-5 rounded-full hover:bg-white hover:text-black hover:shadow-lg transition-all duration-300 font-semibold tracking-wider">
-              Get “La Lucha Por Mi Almas" Here
+              Get “What If Your Child's Healing Begins with Yours?" Here
             </button>
             </Link>
           </div>
@@ -123,7 +123,7 @@ const Blog2 = () => {
           <span>benefits of reading</span>
           <span>book lovers</span>
           <span>reading tips</span>
-          <span>James Larry Holmes Jr.</span>
+          <span>Munshya Alice Tembo</span>
           <span>Orphan Trains</span>
           <span>immersive reading</span>
           <span>learning through fiction</span>
@@ -135,7 +135,7 @@ const Blog2 = () => {
 
         {/* Author */}
         <div className="mt-6 text-[15px] tracking-wide font-semibold">
-          James Larry Holmes JR.
+          Munshya Alice Tembo
         </div>
 
         {/* Previous Blog Link */}

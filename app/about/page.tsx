@@ -5,7 +5,7 @@ import Footer from "@/components/footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About the Authors | James Larry Holmes Jr. & Shirley Velázquez",
+  title: "About the Authors | Munshya Alice Tembo & Shirley Velázquez",
   description:
     "Meet the authors behind THE ABANDONMENT and La Lucha Por Mi Alma. Explore bios, contact, and galleries.",
 };
@@ -116,7 +116,7 @@ const About = () => {
                   <div className="relative aspect-[3/4] w-full overflow-hidden rounded-xl">
                     <Image
                       src="/assets/images/james-3.jpeg"
-                      alt="James Larry Holmes Jr."
+                      alt="Munshya Alice Tembo"
                       fill
                       sizes="(max-width: 1024px) 100vw, 480px"
                       className="object-cover"
@@ -140,12 +140,12 @@ const About = () => {
                   MEET THE AUTHOR —
                 </p>
                 <h2 className="mt-2 text-4xl sm:text-5xl font-extrabold text-[#09332c] leading-tight">
-                  James Larry Holmes Jr.
+                  Munshya Alice Tembo
                 </h2>
 
                 <div className="mt-6 space-y-6 text-[17px] leading-8 text-gray-800">
                   <p>
-                    I’m Mr. James Larry Holmes Jr. Born in Brooklyn, New York,
+                    I’m Mr. Munshya Alice Tembo Born in Brooklyn, New York,
                     at Kings County Hospital. I attended Grover Cleveland High
                     School (1983–1987). Later in life I was further educated at
                     Harrisburg Area Community College—better known as HACC—in
@@ -170,7 +170,7 @@ const About = () => {
                     <ul className="space-y-2 text-[16px] leading-7 text-emerald-950">
                       <li>
                         <span className="font-semibold">
-                          THE ABANDONMENT: A Hollywood Bombshell
+                          What If Your Child's Healing Begins with Yours
                         </span>{" "}
                         — drawn from a real investigation involving a young
                         woman’s Hollywood star mother; discoveries surfaced only
@@ -289,7 +289,7 @@ const About = () => {
                     documentary sensibilities with poetic framing, capturing
                     truth with care. Her collaboration on{" "}
                     <span className="font-semibold">
-                      THE ABANDONMENT: A Hollywood Bombshell
+                      What If Your Child's Healing Begins with Yours
                     </span>{" "}
                     deepens the work’s perspective, threading empathy, memory,
                     and resilience into each frame.

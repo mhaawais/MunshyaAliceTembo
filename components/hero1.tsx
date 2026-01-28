@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-10 xl:px-16 py-16 sm:py-14 md:py-12 lg:py-10 xl:py-8 2xl:py-6">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8 sm:gap-10 lg:gap-12 xl:gap-16">
           {/* LEFT: text */}
-          <div className="order-2 md:order-1 w-full text-center md:text-left">
+          <div className="order-2 md:order-1 w-full text-center md:text-left animate-slideIn">
             <span className="inline-block rounded-full border border-white/30 bg-red-800 px-3 py-1 text-xs sm:text-sm font-semibold tracking-wide text-white/90">
               OUT NOW —
             </span>
@@ -73,7 +73,7 @@ const Hero = () => {
           </div>
 
           {/* RIGHT: image */}
-          <div className="order-1 md:order-2 w-full flex justify-center">
+          <div className="order-1 md:order-2 w-full flex justify-center animate-slideInRight">
             <div className="relative w-full max-w-[300px] sm:max-w-[360px] md:max-w-[420px] lg:max-w-[460px] xl:max-w-[500px]">
               {/* Aspect wrapper prevents shift and overlap; padding & bg keep it premium even with object-contain */}
               <div className="relative aspect-[3/4] rounded-2xl bg-white/10 ring-1 ring-white/20 shadow-2xl p-2">

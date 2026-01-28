@@ -15,9 +15,9 @@ const Hero2 = () => {
       <div className="relative mx-auto grid max-w-7xl grid-cols-1 items-center gap-10 px-4 py-12 sm:px-6 md:py-16 lg:grid-cols-2 lg:gap-16 lg:px-8">
         {/* IMAGE CARD */}
         <div className="order-1 lg:order-2 flex justify-center">
-          <div className="bg-[#bce1dc] p-6 rounded-md w-full max-w-[350px] shadow-2xl">
+          <div className="bg-black p-6 rounded-md w-full max-w-[350px] shadow-2xl">
             <Image
-              src="/assets/images/m4.JPG"
+              src="/assets/images/book-cover2.jpeg"
               alt="Book Image"
               width={300}
               height={400}
@@ -35,28 +35,30 @@ const Hero2 = () => {
 
           <h1
             id="hero2-heading"
-            className="mt-3 text-3xl font-extrabold leading-tight text-white sm:text-4xl md:text-5xl font-serif"
+            className="mt-3 text-3xl font-extrabold leading-tight text-emerald-300/90 sm:text-4xl md:text-5xl font-serif"
           >
-            La Lucha Por Mi Almas
-            <span className="block text-lg font-semibold text-emerald-300/90 sm:text-xl md:text-2xl">
+            What If Your Child's Healing Begins with Yours?
+            {/* <span className="block text-lg font-semibold text-emerald-300/90">
               (Spanish Edition)
-            </span>
+            </span> */}
           </h1>
 
           <p className="mt-5 max-w-xl text-base leading-relaxed text-white/85 sm:text-lg">
-            La Lucha Por Mi Alma, is about a true Testimony about the authors
-            Life. His spiritual bond that he shared with his mother and his
-            rough upbringing in the streets of New York..
+            What If Your Child's Healing Begins with Yours? by Munshya Alice Tembo is a heartfelt guide for mothers who 
+            feel helpless in their child's emotional struggles. Through personal stories and biblical wisdom, this book invites 
+            you to heal your own heart first, opening the door to your child's healing. It empowers you to release guilt, 
+            restore peace, and rebuild your connection, reminding you that when God heals a mother, entire generations 
+            are restored.
           </p>
 
           <p className="mt-4 text-sm font-medium text-white/80 sm:text-base">
             By:
             <br />
-            <span className="text-white">James Larry Holmes&nbsp;JR.</span>
+            <span className="text-green-400">Munshya Alice Tembo</span>
           </p>
 
           <div className="mt-7">
-            <Link href={"https://a.co/d/0Kge1Ax"} target="_blank" rel="noopener noreferrer">
+            <Link href={"https://www.amazon.com/What-Childs-Healing-Begins-Yours-ebook/dp/B0FXT2WPG9/ref=sr_1_1?crid=3UVJYW94NJP0Q&dib=eyJ2IjoiMSJ9.6pjMafdGZYWFAP0jpcnLaA.HF7Lqlh0Mq-qWrjDDs4PvmX1FV7X7qBz278ur7-hpFg&dib_tag=se&keywords=alice+tembo&qid=1769544965&s=digital-text&sprefix=alice+tembo%2Cdigital-text%2C510&sr=1-1"} target="_blank" rel="noopener noreferrer">
               <button className="font-extrabold inline-flex items-center justify-center rounded-xl bg-emerald-400 px-7 py-3.5 text-base md:text-lg font-sans tracking-wide text-[#06221d] shadow-[0_10px_30px_rgba(16,185,129,0.25)] transition-all duration-300 hover:translate-y-[-1px] hover:brightness-150 active:translate-y-0">
                 Get The BooK!
               </button>
@@ -66,15 +68,15 @@ const Hero2 = () => {
           <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 text-xs text-white/70">
             <span className="inline-flex items-center gap-2">
               <span className="h-1.5 w-1.5 rounded-full bg-emerald-400/70" />
-              True Testimony
+              Healing
             </span>
             <span className="inline-flex items-center gap-2">
               <span className="h-1.5 w-1.5 rounded-full bg-emerald-400/70" />
-              Spanish Edition
+              Motherhood
             </span>
             <span className="inline-flex items-center gap-2">
               <span className="h-1.5 w-1.5 rounded-full bg-emerald-400/70" />
-              New Release
+              Restoration
             </span>
           </div>
         </div>

@@ -19,7 +19,7 @@ export default function AuthorsSection() {
           Featured Authors
         </h2>
 
-        {/* ====== JAMES LARRY HOLMES JR. ====== */}
+        {/* ====== Munshya Alice Tembo ====== */}
         <div className="grid items-center gap-10 lg:grid-cols-2">
           {/* Media (Video) */}
           <div className="order-1 lg:order-none">
@@ -47,12 +47,12 @@ export default function AuthorsSection() {
           {/* Content */}
           <div className="order-2 space-y-6">
             <span className="inline-flex items-center rounded-full bg-red-800 px-4 py-1 text-xs font-semibold tracking-wider text-white">
-              MEET JAMES LARRY —
+              MEET MUNSHYA ALICE —
             </span>
 
             <div>
               <h3 className="text-3xl font-bold leading-tight text-[#0a1f1a] sm:text-4xl">
-                James Larry Holmes Jr.
+                Munshya Alice Tembo
               </h3>
               <p className="mt-1 text-lg font-medium text-emerald-900/80">
                 Author • Investigator • Spiritual Guide
@@ -60,8 +60,8 @@ export default function AuthorsSection() {
             </div>
 
             <p className="max-w-prose text-base leading-relaxed text-gray-900">
-              Born in Brooklyn, New York at Kings County Hospital, James Larry
-              Holmes Jr. attended Grover Cleveland High School (1983–1987) and
+              Born in Brooklyn, New York at Kings County Hospital, Munshya Alice
+              attended Grover Cleveland High School (1983–1987) and
               later continued his studies at Harrisburg Area Community College
               (HACC) in Pennsylvania. His adult life has spanned security,
               bounty hunting, and private investigations—work that sharpened his
@@ -80,10 +80,10 @@ export default function AuthorsSection() {
                   New Mystery • True Investigation
                 </div>
                 <div className="mt-1 text-lg font-bold">
-                  THE ABANDONMENT: A Hollywood Bombshell
+                  What If Your Child's Healing Begins with Yours
                 </div>
                 <p className="mt-2 text-sm text-gray-700">
-                  Co-created with Shirley Velázquez. Drawn from a real case
+                  Co-created with Munshya Alice Tembo. Drawn from a real case
                   involving a young woman’s Hollywood star mother—key
                   discoveries surfaced only four years ago. The story expands
                   into a forthcoming documentary and possibly another book.
@@ -102,7 +102,7 @@ export default function AuthorsSection() {
                   Spanish Edition • Testimony
                 </div>
                 <div className="mt-1 text-lg font-bold">
-                  La Lucha Por Mi Alma
+                  What If Your Child's Healing Begins with Yours?
                 </div>
                 <p className="mt-2 text-sm text-gray-700">
                   A true-life testimony—his spiritual bond with his mother, and
@@ -160,7 +160,7 @@ export default function AuthorsSection() {
               the lens, honoring their experiences and connecting them to her
               own search for belonging. She is a creative force behind{" "}
               <span className="font-semibold">
-                THE ABANDONMENT: A Hollywood Bombshell
+                What If Your Child's Healing Begins with Yours
               </span>
               , contributing her vision to the work’s narrative depth.
             </p>

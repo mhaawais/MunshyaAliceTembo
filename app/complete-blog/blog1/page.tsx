@@ -5,9 +5,9 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Why I Wrote 'The Abandonment: A Hollywood Bombshell' | James Larry Holmes Jr. – Blog",
+  title: "Why I Wrote 'What If Your Child's Healing Begins with Yours' | Munshya Alice Tembo – Blog",
   description:
-    "Uncover the heartfelt motivations behind 'The Abandonment: A Hollywood Bombshell.' In this blog, Dwight shares his spiritual struggles, revelations, and what led him to pen this bold departure from traditional church culture.",
+    "Uncover the heartfelt motivations behind 'What If Your Child's Healing Begins with Yours.' In this blog, Dwight shares his spiritual struggles, revelations, and what led him to pen this bold departure from traditional church culture.",
 };
 
 const Blog1 = () => {
@@ -32,7 +32,7 @@ const Blog1 = () => {
 
         {/* Meta */}
         <div className="mt-4 text-[14px] tracking-widest">
-          May 28 &nbsp; - &nbsp; Written By James Larry Holmes Jr.
+          May 28 &nbsp; - &nbsp; Written By Munshya Alice Tembo
         </div>
 
         {/* Title */}
@@ -65,7 +65,7 @@ const Blog1 = () => {
           <p>
             <strong>3. Choose the Right Book:</strong> Select a book that truly
             interests you. If you're a fan of historical fiction, my novel 
-            "The Abandonment: A Hollywood Bombshell" might be a perfect pick to get you started. Its
+            "What If Your Child's Healing Begins with Yours" might be a perfect pick to get you started. Its
             engaging story and rich historical backdrop can reignite your
             passion for reading.
           </p>
@@ -96,7 +96,7 @@ const Blog1 = () => {
           </p>
 
           <p>
-            Rediscover the joy of reading with a compelling story. "The Abandonment: A Hollywood Bombshell"
+            Rediscover the joy of reading with a compelling story. "What If Your Child's Healing Begins with Yours"
             is waiting to take you on a historical journey filled with
             emotion and adventure. Happy reading!
           </p>
@@ -121,7 +121,7 @@ const Blog1 = () => {
           <span>reading goals</span>
           <span>cozy reading space</span>
           <span>book clubs</span>
-          <span>James Larry Holmes Jr.</span>
+          <span>Munshya Alice Tembo</span>
           <span>historical fiction</span>
           <span>reading inspiration</span>
           <span>improve reading habits</span>
@@ -132,7 +132,7 @@ const Blog1 = () => {
 
         {/* Author */}
         <div className="mt-6 text-[15px] tracking-wide font-semibold">
-          James Larry Holmes JR.
+          Munshya Alice Tembo
         </div>
 
         {/* Next Blog Link */}

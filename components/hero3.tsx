@@ -18,10 +18,10 @@ const Hero3 = () => {
           <p className="text-lg leading-relaxed italic mb-4">
             "Opening with a powerful and unsettling moment,{" "}
             <span className="font-semibold">
-              The Abandonment: A Hollywood Bombshell
+              What If Your Child's Healing Begins with Yours
             </span>{" "}
             is filled with vivid imagery, intense emotion, and unexpected
-            insights into church life. James Larry Holmes Jr.'s account of
+            insights into church life. Munshya Alice Tembo's account of
             spiritual disillusionment and transformation is authentic,
             compelling, and deeply affecting—taking readers through a journey
             that is honest, courageous, and unforgettable."
@@ -39,10 +39,10 @@ const Hero3 = () => {
         {/* Testimonial 2 */}
         <div className="bg-white p-6 rounded-md shadow-md">
           <p className="text-lg leading-relaxed mb-4">
-            "James Larry Holmes Jr. was once a devoted church member and
-            respected figure in his community. In{" "}
+            "Munshya Alice Tembo was once a devoted church member and respected
+            figure in his community. In{" "}
             <span className="font-semibold">
-              The Abandonment: A Hollywood Bombshell,
+              What If Your Child's Healing Begins with Yours,
             </span>{" "}
             he shares his heartfelt experiences and painful reflections with
             clarity and purpose. This honest narrative explores the emotional
@@ -65,7 +65,10 @@ const Hero3 = () => {
         {/* Testimonial 3 */}
         <div className="bg-white p-6 rounded-md shadow-md">
           <p className="text-lg leading-relaxed italic mb-4">
-            "<span className="font-semibold">La Lucha Por Mi Almas</span>{" "}
+            "
+            <span className="font-semibold">
+              What If Your Child's Healing Begins with Yours?
+            </span>{" "}
             captures the personal story of an individual confronting
             long-standing religious tradition in a small-town church setting. At
             a time when questioning faith is often stigmatized, James Larry
@@ -89,10 +92,12 @@ const Hero3 = () => {
           <p className="text-lg leading-relaxed mb-4">
             "Growing up, I knew James had deep roots in the church—but I never
             understood the full weight of his story until he shared it in{" "}
-            <span className="font-semibold">La Lucha Por Mi Almas</span>. His
-            journey is eye-opening and deeply personal. Stories like his remind
-            us how courageously people have walked away from comfort to live in
-            alignment with their truth."
+            <span className="font-semibold">
+              What If Your Child's Healing Begins with Yours?
+            </span>
+            . His journey is eye-opening and deeply personal. Stories like his
+            remind us how courageously people have walked away from comfort to
+            live in alignment with their truth."
           </p>
           <p className="text-right font-semibold text-myblack font-serif">
             — Vicky Turl

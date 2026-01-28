@@ -104,7 +104,7 @@ const Blog = () => {
             intricacies of ancient civilizations or navigating the tumult of more recent events, historical
             fiction offers a gateway to understanding the complexities of the past while illuminating
             timeless truths about the human experience. In works like{" "}
-            <strong className="text-[#09332c]">"La Lucha Por Mi Almas"</strong>, set amidst the Orphan Trains era, the resonance of history is
+            <strong className="text-[#09332c]">"What If Your Child's Healing Begins with Yours?"</strong>, set amidst the Orphan Trains era, the resonance of history is
             palpable, inviting readers to embark on a journey of discovery, empathy, and enlightenment.
           </p>
 

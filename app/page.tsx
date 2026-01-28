@@ -20,7 +20,7 @@ export default function Home() {
        <Header />
        <Hero1 />
        <Hero2 />
-       <Hero4 />
+       {/* <Hero4 /> */}
        <AuthorIntro />
        <Hero3 />
        <Footer />
