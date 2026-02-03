@@ -33,7 +33,7 @@ export default function AuthorsSection() {
                 playsInline
               /> */}
               <Image
-                src="/assets/images/james-2.jpeg"
+                src="/assets/images/alice-1.jpeg"
                 alt="Author portrait"
                 width={448}
                 height={576}
@@ -185,7 +185,7 @@ export default function AuthorsSection() {
           <div className="order-1 lg:order-none">
             <div className="relative mx-auto aspect-[3/4] w-full max-w-[22rem] overflow-hidden rounded-2xl shadow-2xl ring-1 ring-black/5">
               <Image
-                src="/assets/images/author-4.jpeg"
+                src="/assets/images/alice-5.jpeg"
                 alt="Portrait of Shirley Velázquez"
                 width={640}
                 height={800}

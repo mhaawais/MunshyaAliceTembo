@@ -34,9 +34,8 @@ function GalleryGrid({
               alt={`gallery ${i + 1}`}
               fill
               sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 16vw"
-              className={`${
-                contain ? "object-contain p-2 bg-white" : "object-cover"
-              } transition-transform duration-500 group-hover:scale-[1.03]`}
+              className={`${contain ? "object-contain p-2 bg-white" : "object-cover"
+                } transition-transform duration-500 group-hover:scale-[1.03]`}
             />
           </div>
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/15 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
@@ -48,22 +47,13 @@ function GalleryGrid({
 
 const About = () => {
   const jamesGallery = [
-    "/assets/images/james-2.jpeg",
-    "/assets/images/james-3.jpeg",
-    "/assets/images/james-4.jpeg",
-    "/assets/images/james-6.jpg",
-    "/assets/images/james-7.jpeg", // duplicate as filler; replace with a 5th/6th when ready
-    "/assets/images/photo-4.png",
+    "/assets/images/alice-3.jpeg",
+    "/assets/images/alice-4.jpeg",
+    "/assets/images/alice-5.jpeg",
+    "/assets/images/alice-6.jpeg",
+    "/assets/images/alice-2.jpeg", // duplicate as filler; replace with a 5th/6th when ready
+    "/assets/images/alice-1.jpeg",
   ];
-
-  // const shirleyGallery = [
-  //   "/assets/images/author-1.jpeg",
-  //   "/assets/images/author-2.jpeg",
-  //   "/assets/images/author-8.jpeg",
-  //   "/assets/images/author-9.jpeg",
-  //   "/assets/images/author-5.jpeg",
-  //   "/assets/images/author-6.jpeg",
-  // ];
 
   const shirleyGallery = [
     "/assets/images/photo-1.png",
@@ -78,33 +68,6 @@ const About = () => {
     <>
       <Header />
 
-      {/* Anchor pills */}
-      {/* <nav className="sticky top-0 z-20 bg-white/90 backdrop-blur border-b border-black/5"> */}
-      <nav
-        className="
-    sticky inset-x-0
-    top-[200px]
-    md:top-0      
-    lg:top-0
-    z-40 bg-white/90 backdrop-blur border-b border-black/5
-  "
-      >
-        <div className="mx-auto max-w-7xl px-6 py-3 flex items-center justify-center gap-3">
-          <Link
-            href="#james"
-            className="rounded-full px-4 py-2 text-sm font-semibold bg-emerald-700 text-white hover:brightness-95 transition"
-          >
-            James
-          </Link>
-          <Link
-            href="#shirley"
-            className="rounded-full px-4 py-2 text-sm font-semibold bg-emerald-900/10 text-emerald-900 ring-1 ring-emerald-900/15 hover:bg-emerald-900/15 transition"
-          >
-            Shirley
-          </Link>
-        </div>
-      </nav>
-
       <main className="bg-white text-black">
         {/* ================= JAMES ================= */}
         <section id="james" className="scroll-mt-24 w-full py-16">
@@ -115,7 +78,7 @@ const About = () => {
                 <div className="relative overflow-hidden rounded-2xl bg-[#f0f3e7] p-3 shadow-2xl ring-1 ring-black/5">
                   <div className="relative aspect-[3/4] w-full overflow-hidden rounded-xl">
                     <Image
-                      src="/assets/images/james-3.jpeg"
+                      src="/assets/images/alice-1.jpeg"
                       alt="Munshya Alice Tembo"
                       fill
                       sizes="(max-width: 1024px) 100vw, 480px"
@@ -255,80 +218,7 @@ const About = () => {
         <div className="h-px w-full bg-emerald-900/10" />
 
         {/* ================= SHIRLEY ================= */}
-        <section
-          id="shirley"
-          className="scroll-mt-24 w-full py-16 bg-[#f7faf8]"
-        >
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="grid gap-12 lg:grid-cols-12 lg:gap-16">
-              {/* Content */}
-              <div className="lg:col-span-7 order-2 lg:order-1 flex flex-col justify-center">
-                {/* <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-emerald-900/80">
-                  MEET THE CREATIVE
-                </p> */}
-                <p className="mx-auto inline-flex items-center rounded-full bg-red-800 px-4 py-1 text-xs font-semibold tracking-wider text-white">
-                  MEET THE CREATIVE —
-                </p>
-                <h2 className="mt-2 text-4xl sm:text-5xl font-extrabold text-[#09332c] leading-tight">
-                  Shirley Velázquez
-                </h2>
 
-                <div className="mt-6 space-y-6 text-[17px] leading-8 text-gray-800">
-                  <p>
-                    Shirley Velázquez is a storyteller and filmmaker on a
-                    lifelong journey to uncover her heritage and roots,
-                    exploring the places and memories that shaped her identity.
-                    Deeply drawn to the unheard voices of the
-                    unnoticed—especially children—she brings their stories to
-                    life through her writing and films, honoring their
-                    experiences while connecting them to her own search for
-                    belonging.
-                  </p>
-                  <p>
-                    Working primarily behind the lens, Shirley blends
-                    documentary sensibilities with poetic framing, capturing
-                    truth with care. Her collaboration on{" "}
-                    <span className="font-semibold">
-                      What If Your Child's Healing Begins with Yours
-                    </span>{" "}
-                    deepens the work’s perspective, threading empathy, memory,
-                    and resilience into each frame.
-                  </p>
-                </div>
-
-                <div className="mt-8 flex flex-wrap gap-2">
-                  <span className={chip}>Storyteller</span>
-                  <span className={chip}>Filmmaker</span>
-                  <span className={chip}>Advocate</span>
-                </div>
-              </div>
-
-              {/* Media */}
-              <div className="lg:col-span-5 order-1 lg:order-2">
-                <div className="relative overflow-hidden rounded-2xl bg-[#f0f3e7] p-3 shadow-2xl ring-1 ring-black/5">
-                  <div className="relative aspect-[3/4] w-full overflow-hidden rounded-xl">
-                    <Image
-                      src="/assets/images/author-4.jpeg"
-                      alt="Shirley Velázquez"
-                      fill
-                      sizes="(max-width: 1024px) 100vw, 480px"
-                      className="object-cover"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Shirley Gallery (use contain to avoid cropping and reduce “too tall” feel) */}
-            <div className="mt-16">
-              <h3 className="text-2xl font-bold text-[#09332c]">Gallery</h3>
-              <p className="text-sm text-emerald-900/70">
-                Frames & field notes
-              </p>
-              <GalleryGrid images={shirleyGallery} contain />
-            </div>
-          </div>
-        </section>
       </main>
 
       <Footer />
