@@ -1,167 +1,37 @@
 import React from "react";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Why I Wrote 'What If Your Child's Healing Begins with Yours' | Munshya Alice Tembo – Blog",
-  description:
-    "Uncover the heartfelt motivations behind 'What If Your Child's Healing Begins with Yours.' In this blog, Dwight shares his spiritual struggles, revelations, and what led him to pen this bold departure from traditional church culture.",
+  title: "Healing Starts Within | Munshya Alice Tembo",
+  description: "A journey of faith, purpose, and family restoration for mothers, caregivers, and leaders.",
 };
 
-const Blog1 = () => {
-  return (
-    <div className="bg-detailblog text-black">
-      <Header />
+const sections = [
+  ["The Hidden Burden Many Mothers Carry", "Many mothers live with silent questions: What did I do wrong? Why is my child struggling? How can I help them heal? Will my family ever be whole again? These questions can create guilt, shame, exhaustion, and hopelessness. Yet healing becomes possible when we recognise that we are not responsible for carrying every burden alone. Healing is not about becoming a perfect parent. Healing is about becoming a healthy and prudent parent. When we address our own inner wounds, fears, and unresolved pain, we create space for growth, healthy connections, and restoration in our environments."],
+  ["Creating Recovery-Ready Families", "As a behavioural health nurse, I have learned that recovery is rarely an individual journey. Lasting healing happens when people are surrounded by supportive, healthy environments that encourage hope, accountability, connection, and growth. A recovery-ready family is not a perfect family. It practices grace and understanding, encourages honest conversations, prioritises emotional wellness, creates safe spaces for healing, supports growth instead of shame, and chooses hope over despair. When families intentionally build these environments, healing becomes more sustainable. Resilience also grows stronger."],
+  ["Identity Before Activity", "One of the greatest lessons God continues to teach me is that our God-given identity must come before our responsibilities. I serve in many roles: mother, sister, auntie, grandmother, nurse, author, mentor, business owner, ministry leader, and friend. Yet none of these roles defines me. My identity is rooted in Christ. When our identity is secure, we no longer need to prove our worth through achievement, performance, or perfection. Instead, we can lead, serve, and love from a place of wholeness, with confidence, compassion, and purpose."],
+  ["Rest Is Not a Reward", "Many women believe they must earn rest after everything is finished. The work is never fully finished. Rest is not a luxury. Rest is stewardship. Rest allows us to reconnect with God, recover emotionally, and renew our strength for the journey ahead. It also creates space for reflection, healing, and spiritual growth."],
+  ["Living With Kingdom Purpose", "As I have grown in my faith, one prayer has become central to my heart: ‘Lord, let Christ preside over every area of my life.’ Whether I am caring for a patient, mentoring a mother, writing a book, leading a ministry, or spending time with my family, my desire is the same: may Christ be seen in every role He has entrusted to me. I no longer ask only, ‘How can God bless what I am building?’ Instead, I ask, ‘How can what God has already blessed me with become a blessing to His Kingdom?’ When Christ presides over our lives, work becomes worship, influence becomes stewardship, and success becomes service. (Colossians 3:23–24; 1 Peter 4:10; Mark 10:43–45.)"],
+  ["Resilience Through Faith", "Healing does not mean the absence of challenges. Resilience is not pretending that life is easy. Resilience is the ability to remain anchored in hope when life becomes difficult. Faith reminds us that our struggles do not define us, our setbacks do not determine our future, and our pain does not have the final word. God specialises in restoration. He brings beauty from brokenness, purpose from pain, and hope from despair."],
+];
 
-      <section className="px-6 sm:px-12 lg:px-20 xl:px-28 py-12 max-w-5xl mx-auto font-serif">
-        {/* Top Tags */}
-        <div className="text-[15px] sm:text-[16px] font-medium flex flex-wrap gap-x-4 gap-y-2 tracking-widest leading-snug">
-          <span>Reading Tips</span>
-          <span>Book Lovers</span>
-          <span>Personal Development</span>
-          <span>Motivation</span>
-          <span>Lifestyle</span>
-          <span>Historical Fiction</span>
-          <span>Author Insights</span>
-          <span>Self-Improvement</span>
-          <span>Reading Habits</span>
-          <span>Inspirational Guides</span>
-        </div>
-
-        {/* Meta */}
-        <div className="mt-4 text-[14px] tracking-widest">
-          May 28 &nbsp; - &nbsp; Written By Munshya Alice Tembo
-        </div>
-
-        {/* Title */}
-        <h1 className="text-4xl sm:text-5xl font-bold mt-8 leading-tight tracking-tight text-james">
-          Finding Your Reading Mojo: <br />
-          How to Get Motivated to Start Reading Again
-        </h1>
-
-        {/* Body */}
-        <div className="mt-10 space-y-8 text-[17px] leading-[2rem] tracking-wide font-normal">
-          <p>
-            In today’s fast-paced world, finding time to read can be
-            challenging. Yet, rediscovering the joy of reading can be incredibly
-            rewarding. Here are some tips to help you get back into the groove:
-          </p>
-
-          <p>
-            <strong>1. Set Realistic Goals:</strong> Start small. Set a daily or
-            weekly reading goal that is achievable. Even 10 minutes a day can
-            make a difference.
-          </p>
-
-          <p>
-            <strong>2. Create a Cozy Reading Space:</strong> Designate a
-            comfortable, quiet spot in your home as your reading nook. A cozy
-            chair, good lighting, and a warm blanket can make reading more
-            inviting.
-          </p>
-
-          <p>
-            <strong>3. Choose the Right Book:</strong> Select a book that truly
-            interests you. If you're a fan of historical fiction, my novel 
-            "What If Your Child's Healing Begins with Yours" might be a perfect pick to get you started. Its
-            engaging story and rich historical backdrop can reignite your
-            passion for reading.
-          </p>
-
-          <p>
-            <strong>4. Join a Book Club:</strong> Being part of a book club can
-            provide motivation and accountability. It’s also a great way to
-            connect with fellow book lovers and discover new books.
-          </p>
-
-          <p>
-            <strong>5. Limit Distractions:</strong> Turn off the TV, put your
-            phone on silent, and focus on the book. Creating a distraction-free
-            environment helps immerse you in the story.
-          </p>
-
-          <p>
-            <strong>6. Make Reading a Routine:</strong> Incorporate reading into
-            your daily routine. Whether it’s before bed or during a lunch break,
-            consistent reading time can build a lasting habit.
-          </p>
-
-          <hr className="my-8 border-black" />
-
-          <p className="font-semibold">
-            What are your favorite tips for getting back into reading? Share
-            your thoughts in the comments below!
-          </p>
-
-          <p>
-            Rediscover the joy of reading with a compelling story. "What If Your Child's Healing Begins with Yours"
-            is waiting to take you on a historical journey filled with
-            emotion and adventure. Happy reading!
-          </p>
-
-          <div className="mt-8 flex justify-center">
-            <Link href={" https://a.co/d/9tIeO8g"}>
-            <button className="bg-james text-white px-10 py-5 rounded-full hover:bg-white hover:text-black hover:shadow-lg transition-all duration-300 font-semibold tracking-wider">
-              Read "THE ABANDONMENT:<br />
-              A Hollywood Bombshell"
-            </button>
-            </Link>
-          </div>
-        </div>
-
-        {/* Tags Footer */}
-        <div className="mt-12 text-[15px] font-medium flex flex-wrap gap-x-4 gap-y-2 tracking-widest leading-snug">
-          <span>reading motivation</span>
-          <span>how to start reading again</span>
-          <span>tips for reading</span>
-          <span>reading habits</span>
-          <span>book lovers</span>
-          <span>reading goals</span>
-          <span>cozy reading space</span>
-          <span>book clubs</span>
-          <span>Munshya Alice Tembo</span>
-          <span>historical fiction</span>
-          <span>reading inspiration</span>
-          <span>improve reading habits</span>
-          <span>get back to reading</span>
-          <span>reading tips</span>
-          <span>find your reading mojo</span>
-        </div>
-
-        {/* Author */}
-        <div className="mt-6 text-[15px] tracking-wide font-semibold">
-          Munshya Alice Tembo
-        </div>
-
-        {/* Next Blog Link */}
-        {/* <div className="mt-14 border-t pt-6 text-right">
-          <Link href="/complete-blog/blog2">
-            <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold hover:underline leading-snug cursor-pointer">
-              Immersing Yourself in Historical Fiction: <br />
-              Why It's Worth Your Time &gt;
-            </h2>
-          </Link>
-        </div> */}
-
-        {/* Previous Blog Link (absolute left aligned outside content box) */}
-        <div className="px-6 sm:px-12 lg:px-20 xl:px-28 mt-14 border-t pt-6">
-          <div className="text-left">
-            <Link href="/complete-blog/blog2">
-              <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold hover:underline leading-snug cursor-pointer text-red-800">
-                Immersing Yourself in &gt; <br />
-                Historical Fiction: <br />
-                Why It's Worth Your Time
-              </h2>
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      <Footer />
-    </div>
-  );
-};
-
-export default Blog1;
+export default function Blog1() {
+  return <div className="bg-detailblog text-black"><Header /><main className="px-6 sm:px-12 lg:px-20 xl:px-28 py-12 max-w-5xl mx-auto font-serif">
+    <p className="text-sm sm:text-base font-semibold tracking-[0.2em] leading-relaxed text-james">HEALING HEARTS. RESTORING FAMILIES. TRANSFORMING GENERATIONS.</p>
+    <p className="mt-4 text-sm tracking-widest">Written by Munshya Alice Tembo, MSN, RN</p>
+    <h1 className="text-4xl sm:text-5xl font-bold mt-8 leading-tight tracking-tight text-james">Healing Starts Within: A Journey of Faith, Purpose, and Family Restoration</h1>
+    <article className="mt-10 space-y-8 text-[17px] leading-[2rem] tracking-wide">
+      <p>As mothers, caregivers, and leaders, we often spend our lives caring for everyone else. We pray for our children, worry about their future, advocate for their well-being, and carry unseen burdens day in and day out. When a child struggles with mental health challenges, addiction, trauma, or emotional pain, a mother’s heart feels every wound.</p>
+      <p>For many years, I believed the answer was to focus solely on fixing what was happening around me. But through my personal experiences, my faith journey, and my work as a behavioural health nurse, God revealed a profound truth to me:</p>
+      <p className="font-bold text-james">Healing often begins within our hearts before it becomes visible around us.</p>
+      <p>The transformation we long to see in our families and our environments often starts with the healing God does in our own hearts first.</p>
+      {sections.map(([title, body]) => <section key={title}><h2 className="text-2xl sm:text-3xl font-bold mb-4 text-james">{title}</h2><p>{body}</p></section>)}
+      <section><h2 className="text-2xl sm:text-3xl font-bold mb-4 text-james">A Message for Every Mother</h2><p>If you are carrying a heavy burden today, I want you to know this: You are not alone. Your story is not over. Your healing matters. Your well-being matters. And your journey toward healing may become the breakthrough your family needs.</p><p>When you choose God’s healing power over hiding, growth over guilt, and faith over fear, you create a foundation for future generations to flourish.</p><blockquote className="border-l-4 border-james pl-5 text-xl font-bold italic">When a mother heals, a generation begins to recover faithfully.</blockquote></section>
+      <section><h2 className="text-2xl sm:text-3xl font-bold mb-4 text-james">Your Healing Journey Starts Today</h2><p>Pause. Reflect. Pray. Ask yourself: What area of my heart needs healing? What burden have I been carrying alone? What would change in my life and family if I allowed myself to trust God to heal and grow me for His kingdom?</p><p>Remember, healing is possible with God (Exodus 15:26), and it is one of the greatest gifts you can claim for yourself, your children, and future generations (Deuteronomy 7:9).</p><ul className="list-disc pl-6 space-y-2"><li>Read <em>What If Your Child’s Healing Begins With Yours?</em></li><li>Join the Facebook Moms Thrive Academy community for encouragement, trusted resources, and support.</li><li>Connect with me for speaking engagements and workshops.</li><li>Share this article with someone who may need hope today.</li></ul></section>
+      <section className="border-t border-black/20 pt-8"><h2 className="text-2xl sm:text-3xl font-bold mb-4 text-james">What Readers Are Saying</h2><blockquote className="border-l-4 border-james pl-5">“This book gave me permission to stop carrying guilt and start pursuing healing through scripture and health choices. Alice’s blend of professional insight, personal experience, and faith-filled encouragement helped me see that my own healing journey could positively impact my entire family.”<footer className="mt-2 text-sm not-italic">— Parent &amp; Caregiver</footer></blockquote><blockquote className="border-l-4 border-james pl-5 mt-6">“Alice Tembo offers a compassionate and practical perspective on family healing. Her understanding of behavioural health, combined with her commitment to faith and family restoration, makes this book a valuable resource.”<footer className="mt-2 text-sm not-italic">— Mental Health Professional</footer></blockquote><blockquote className="border-l-4 border-james pl-5 mt-6">“This book is a powerful reminder that God often starts His healing work in the hearts of those who are praying for others. Alice provides hope, wisdom, and biblical encouragement for families navigating difficult seasons.”<footer className="mt-2 text-sm not-italic">— Ministry Leader</footer></blockquote><blockquote className="border-l-4 border-james pl-5 mt-6">“The insights in this book help educators and caregivers better understand the connection between family wellness, resilience, and emotional healing. It is both inspiring and practical.”<footer className="mt-2 text-sm not-italic">— Educator &amp; Family Advocate</footer></blockquote></section>
+      <section className="bg-white/60 p-6 sm:p-8"><h2 className="text-2xl font-bold text-james">Connect With Alice M. Tembo, MSN, RN</h2><p className="mt-4">Author of <em>What If Your Child’s Healing Begins With Yours?</em><br />Founder of Insaka Reinvented, home to Moms Thrive Academy/Mentor Lounge</p><p className="mt-4">Email: <a className="underline" href="mailto:alice@momsthrives.com">alice@momsthrives.com</a></p></section>
+    </article>
+  </main><Footer /></div>;
+}

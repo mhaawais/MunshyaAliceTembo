@@ -8,7 +8,7 @@ import Footer from "@/components/footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blogs - Faith, Reflection & Redemption | by Dwight Vincent Green Jr.",
+  title: "Blogs - Faith, Healing & Family Restoration | Munshya Alice Tembo",
   description:
     "Read powerful reflections and behind-the-scenes insights from both books —a thought-provoking journey of spiritual awakening. Dive deeper into faith, healing, and the personal journey that inspired the book.",
 };
@@ -38,24 +38,17 @@ const Blog = () => {
         {/* Blog 1 Content */}
         <div className="max-w-5xl mx-auto px-4 sm:px-8 md:px-16 lg:px-20 py-16">
           <p className="text-center text-sm sm:text-base font-medium leading-relaxed mb-4">
-            Reading Tips, Book Lovers, Personal Development, Motivation, Lifestyle, Historical Fiction,
-            Author Insights, Self-Improvement, Reading Habits, Inspirational Guides
+            Faith, Healing, Family Restoration, Behavioural Health, Resilience, Purpose
           </p>
-          <p className="text-center text-sm sm:text-base mb-8">• 5/28/19</p>
+          <p className="text-center text-sm sm:text-base mb-8">Featured article</p>
 
           <h1 className="text-center text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-10  text-james font-serif">
-            Finding Your Reading Mojo: How to Get <br className="hidden sm:block" />
-            Motivated to Start Reading Again
+            Healing Starts Within: A Journey of Faith, Purpose, and Family Restoration
           </h1>
 
           <p className="text-center text-base sm:text-lg leading-8 mb-10">
-            Struggling to find motivation to read? Discover practical tips to reignite your love for books!
-            From setting realistic reading goals and creating a cozy reading nook to choosing the right book
-            and joining a book club, our guide covers it all. Dive into engaging reads like{" "}
-            <strong className="text-[#09332c]">"THE ABANDONMENT:
-            A Hollywood Bombshell"</strong> and transform your reading habits today. Explore how creating
-            a distraction-free environment and tracking your progress can keep you on track. Ready to get
-            your reading mojo back? Read more now!
+            Healing often begins within our hearts before it becomes visible around us. Explore a faith-filled
+            message about mothers, recovery-ready families, identity, rest, resilience, and generational transformation.
           </p>
 
           <div className="text-center">
